@@ -5,6 +5,10 @@ html, body {
   margin: 0;
   padding: 0; }
 
+.nav-logo {
+  max-width: 15%;
+  height: auto; }
+
 .nav-style {
   background-color: #03b8ff;
   color: #ffc803; }
