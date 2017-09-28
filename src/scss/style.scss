@@ -49,8 +49,6 @@
     .nav-style {
         background-color: $blue;
         color: $yellow;
-        font-family: $nav-font;
-        font-size: $nav-font-size;
     }
 
     .nav-style a {
@@ -62,6 +60,12 @@
         background-color: transparent;
         color: $white;
         border: none;
+        font-family: $nav-font;
+        font-size: $nav-font-size;
+    }
+
+    .nav-btn:focus {
+        outline: 0;
     }
     
     // Mobile only
