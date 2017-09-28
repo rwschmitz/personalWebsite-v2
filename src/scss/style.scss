@@ -2,6 +2,7 @@
 
 @import 'colors';
 @import 'fonts';
+@import 'mixins';
 
 // ##### IMPORT PARTIALS END #####
 
@@ -70,12 +71,10 @@
         font-weight: $nav-font-weight;
     }
 
+    @include underline;
+
     .nav-btn:focus {
         outline: 0;
-    }
-
-    .test {
-        display: flex;
     }
     
     // Mobile only
