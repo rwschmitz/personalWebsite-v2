@@ -40,6 +40,20 @@ module.exports = function(grunt) {
             }
         },
 
+        postcss: {
+            options: {
+              map: true, // inline sourcemaps
+        
+              processors: [
+                require('pixrem')(), // add fallbacks for rem units
+                require('autoprefixer')({browsers: 'last 4 versions'}) // add vendor prefixes
+              ]
+            },
+            dist: {
+              src: 'src/css/*.css'
+            }
+          },
+
         // Configure htmlmin to minify html files
         htmlmin: {
             options: {
@@ -65,10 +79,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-postcss');
 
 
     // Create tasks to run multiple tasks
-    grunt.registerTask('default', ['jshint', 'uglify', 'cssmin', 'htmlmin']);
+    grunt.registerTask('default', ['jshint', 'uglify', 'cssmin', 'postcss', 'htmlmin']);
 
 };
 

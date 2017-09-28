@@ -47,7 +47,7 @@
     }
 
     .nav-logo {
-        max-width: 15%;
+        max-width: 50%;
         height: auto;
     }
 
@@ -67,6 +67,7 @@
         border: none;
         font-family: $nav-font;
         font-size: $nav-font-size;
+        font-weight: $nav-font-weight;
     }
 
     .nav-btn:focus {
