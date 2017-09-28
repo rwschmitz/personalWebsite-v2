@@ -98,9 +98,9 @@
     }
 
     .subintro {
-        $font-family: $subintro-font;
+        font-family: $subintro-font;
         font-size: $subintro-font-size;
-        $color: $white;
+        color: $white;
     }
     
     // Mobile only
