@@ -7,7 +7,7 @@
 
 // ##### VARIABLES START #####
 
-    // Site wide variables start
+    // Site wide variables start  
 
     // Site wide variables end
 
@@ -39,11 +39,18 @@
     // Sitewide
 
     html, body {
-        background: linear-gradient(to bottom right, $blue, $white);
+        background: $black;
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
         padding: 0;
+    }
+
+    .nav-style {
+        background-color: $blue;
+        color: $yellow;
+        font-family: $nav-font;
+        font-size: $nav-font-size;
     }
     
     // Mobile only

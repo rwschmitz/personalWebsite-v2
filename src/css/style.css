@@ -1,8 +1,14 @@
 html, body {
-  background: linear-gradient(to bottom right, #03b8ff, #fff8dc);
+  background: #141516;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
   padding: 0; }
+
+.nav-style {
+  background-color: #03b8ff;
+  color: #ffc803;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
