@@ -9,19 +9,13 @@
 
     // Site wide variables start
 
-
-
     // Site wide variables end
 
     // Mobile variables start
 
-
-
     // Mobile variables end
 
     // Desktop variables start
-
-
 
     // Desktop variables end
 
@@ -45,27 +39,17 @@
     // Sitewide
 
     html, body {
-        background: $black;
+        background: linear-gradient(to bottom right, $blue, $white);
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
         padding: 0;
     }
-
-    // Defines each section.
-
     
-
     // Mobile only
-
     
     // Desktop only
 
-   
-
     // Bootstrap modifications
-
-  
-
 
 // #####  IDS AND CLASSES END #####
