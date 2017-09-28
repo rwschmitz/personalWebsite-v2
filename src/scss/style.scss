@@ -96,6 +96,12 @@
         font-size: $intro-font-size;
         color: $white;
     }
+
+    .subintro {
+        $font-family: $subintro-font;
+        font-size: $subintro-font-size;
+        $color: $white;
+    }
     
     // Mobile only
     
