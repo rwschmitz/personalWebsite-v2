@@ -61,4 +61,15 @@ html, body {
 .nav-btn:focus {
   outline: 0; }
 
+.section {
+  height: auto;
+  max-width: 80%; }
+
+.content {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px; }
+
+.header {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px; }
 /*# sourceMappingURL=style.css.map */

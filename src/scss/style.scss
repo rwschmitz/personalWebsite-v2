@@ -71,10 +71,25 @@
         font-weight: $nav-font-weight;
     }
 
-    @include underline;
+    @include underline; // Include mixin for underline animation for nav bar.
 
     .nav-btn:focus {
         outline: 0;
+    }
+
+    .section {
+        height: auto;
+        max-width: 80%;
+    }
+
+    .content {
+        font-family: $content-font;
+        font-size: $content-font-size;
+    }
+
+    .header {
+        font-family: $header-font;
+        font-size: $header-font-size;
     }
     
     // Mobile only
