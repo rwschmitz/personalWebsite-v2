@@ -28,10 +28,8 @@ html, body {
 .underline {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-          box-shadow: 0 0 1px transparent;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden; }
 
@@ -44,15 +42,9 @@ html, body {
   bottom: 0;
   background: #fff8dc;
   height: 1px;
-  -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-out;
-       -o-transition-timing-function: ease-out;
-          transition-timing-function: ease-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-out; }
 
 .underline:hover:before, .underline:focus:before, .underline:active:before {
   left: 0;
@@ -62,14 +54,16 @@ html, body {
   outline: 0; }
 
 .section {
-  height: auto;
-  max-width: 80%; }
+  height: auto; }
 
 .content {
   font-family: "Roboto", sans-serif;
-  font-size: 12px; }
+  font-size: 12px;
+  color: #fff8dc; }
 
 .header {
   font-family: "Roboto Slab", serif;
-  font-size: 18px; }
+  font-size: 18px;
+  color: #fff8dc; }
+
 /*# sourceMappingURL=style.css.map */
