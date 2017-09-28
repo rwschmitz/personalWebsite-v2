@@ -1,6 +1,7 @@
 // ##### IMPORT PARTIALS START #####
 
 @import 'colors';
+@import 'fonts';
 
 // ##### IMPORT PARTIALS END #####
 
@@ -44,12 +45,11 @@
     // Sitewide
 
     html, body {
-        background: $dark-color;
+        background: $black;
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
         padding: 0;
-        color: $third-color;
     }
 
     // Defines each section.
