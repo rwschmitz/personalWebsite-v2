@@ -1,8 +1,9 @@
 html, body {
-  background: #eaeaea;
+  background: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: green; }
 
 /*# sourceMappingURL=style.css.map */

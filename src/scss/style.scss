@@ -1,3 +1,9 @@
+// ##### IMPORT PARTIALS START #####
+
+@import 'colors';
+
+// ##### IMPORT PARTIALS END #####
+
 // ##### VARIABLES START #####
 
     // Site wide variables start
@@ -38,11 +44,12 @@
     // Sitewide
 
     html, body {
-        background: #eaeaea;
+        background: $dark-color;
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
         padding: 0;
+        color: $third-color;
     }
 
     // Defines each section.
