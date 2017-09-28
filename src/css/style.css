@@ -28,4 +28,7 @@ html, body {
 .nav-btn:focus {
   outline: 0; }
 
+.test {
+  display: flex; }
+
 /*# sourceMappingURL=style.css.map */
