@@ -15,8 +15,8 @@
         left: 50%;
         right: 50%;
         bottom: 0;
-        background: #2098D1;
-        height: 4px;
+        background: $white;
+        height: 1px;
         transition-property: left, right;
         transition-duration: 0.3s;
         transition-timing-function: ease-out;
