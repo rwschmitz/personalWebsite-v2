@@ -52,6 +52,16 @@
         font-family: $nav-font;
         font-size: $nav-font-size;
     }
+
+    .nav-style a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    .nav-btn {
+        $background-color: transparent;
+        $color: $black;
+    }
     
     // Mobile only
     

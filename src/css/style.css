@@ -11,4 +11,8 @@ html, body {
   font-family: "Roboto Slab", serif;
   font-size: 14px; }
 
+.nav-style a {
+  color: #fff8dc;
+  text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
