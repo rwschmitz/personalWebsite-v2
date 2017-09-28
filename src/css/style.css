@@ -17,8 +17,8 @@ html, body {
   background-color: transparent;
   color: #fff8dc;
   border: none;
-  font-family: "Roboto Slab", serif;
-  font-size: 14px; }
+  font-family: "Roboto", sans-serif;
+  font-size: 18px; }
 
 .nav-btn:focus {
   outline: 0; }
