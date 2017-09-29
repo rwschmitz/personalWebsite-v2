@@ -17,7 +17,7 @@ var hobbies = document.querySelectorAll('.icons');
 function hideHobbies () {
     
     for(var i = 0; i < 5; i++) {
-        alert(hobbies);
+        alert(hobbies[i]);
     }
 
 }
