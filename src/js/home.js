@@ -20,19 +20,19 @@ function hideHobbies () {
         console.log(hobbies[0]);
 
         }
-        if(i === 1) {
+        if(hobbies[1]) {
         console.log(hobbies[1]);
 
         }
-        if(i === 2) {
+        if(hobbies[2]) {
         console.log(hobbies[2]);
 
         }
-        if(i === 3) {
+        if(hobbies[3]) {
         console.log(hobbies[3]);
  
         }
-        if(i === 4) {
+        if(hobbies[4]) {
         console.log(hobbies[4]);
    
         }
