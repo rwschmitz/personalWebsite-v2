@@ -12,6 +12,8 @@ hobby1.addEventListener('click', hideHobby1, false);*/
 
 // spacer
 
+var hobbies = document.getElementsByClassName('.icons');
+
 function hideHobbies () {
     
     for(var i = 0; i < 5; i++) {
