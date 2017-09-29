@@ -22,9 +22,11 @@ function hideHobbies () {
 
 }
 
-
+function clicked (e) {
+    
+}
 
 for (var i = 0; i < 5; i++) {
 hobbies[i].addEventListener('click', hideHobbies, false);
-console.log(i);
+console.log(hobbies[i]);
 }
