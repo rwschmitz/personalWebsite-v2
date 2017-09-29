@@ -38,7 +38,7 @@ function hideHobbies () {
         }
 }
 
-hobbies.addEventListener('click', hideHobbies, false);
+hobbies[0].addEventListener('click', hideHobbies, false);
 /*
     hobbies[0].addEventListener('click', hideHobbies, false);
     hobbies[1].addEventListener('click', hideHobbies, false);
