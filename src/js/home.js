@@ -3,11 +3,8 @@ var active = false;
 
 hobbies[0].onclick = function () {
     for(var i = 0; i < 5; i++) {
-        if(i===0 && active == false) {
+        if(i===0) {
             hobbies[0].style.display = 'block';
-            active = true;
-        } else if(i===0 && active == true) {
-            hobbies[i].style.display = 'block';
         } else {
             hobbies[i].style.display = 'none';
         }
