@@ -10,15 +10,9 @@ hobbies[0].onclick = function () {
         else {
             hobbies[i].style.display = 'none';
         }
-
-        if(i===0 && active == true) {
-            hobbies[i].style.display = 'block';
-            active = false;
-        }
     }
 };
 
-/*
 hobbies[1].onclick = function () {
     for(var i = 0; i < 5; i++) {
         if(i===1) {
@@ -57,4 +51,11 @@ hobbies[4].onclick = function () {
             hobbies[i].style.display = 'none';
         }
     }
-};*/
+};
+
+
+/*
+
+1. finish toggle function
+
+*/
