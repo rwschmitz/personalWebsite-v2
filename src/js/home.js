@@ -14,8 +14,17 @@ hobby1.addEventListener('click', hideHobby1, false);*/
 
 var hobbies = document.getElementsByClassName("icons");
 
+hobbies[0].onclick = function () {
+    console.log("hobby 1 clicked");
+};
 
+hobbies[1].onclick = function () {
+    console.log("hobby 1 clicked");
+};
+
+/*
 function hideHobbies () {
+
         if(hobbies[0]) {
         console.log(hobbies[0]);
 
