@@ -28,4 +28,4 @@ for (var i = 0; i < 5; i++) {
 console.log(hobbies[0]);
 }
 
-hobbies[i].addEventListener('click', hideHobbies, false);
+hobbies[0].addEventListener('click', hideHobbies, false);
