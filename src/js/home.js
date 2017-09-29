@@ -1,11 +1,13 @@
 var hobbies = document.getElementsByClassName("icons");
-var active = false;
 
 hobbies[0].onclick = function () {
     for(var i = 0; i < 5; i++) {
         if(i===0) {
             hobbies[0].style.display = 'block';
-        } else {
+        } else if(i!==0) {
+            hobbies[i].style.display = 'block';
+        }
+        else {
             hobbies[i].style.display = 'none';
         }
     }
