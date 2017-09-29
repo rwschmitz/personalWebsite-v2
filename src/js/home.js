@@ -46,6 +46,14 @@ function hideHobbies () {
 
 }
 
+
+hobby0.addEventListener('click', hideHobbies, false);
+hobby1.addEventListener('click', hideHobbies, false);
+hobby2.addEventListener('click', hideHobbies, false);
+hobby3.addEventListener('click', hideHobbies, false);
+hobby4.addEventListener('click', hideHobbies, false);
+
+
 for (var i = 0; i < 5; i++) {
 hobbies[i].addEventListener('click', hideHobbies, false);
 }
