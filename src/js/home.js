@@ -1,5 +1,19 @@
 var hobbies = document.getElementsByClassName("icons");
 
+
+for (var i = 0; i < 5; i++) {
+    hobbies[i].onclick = function () {
+        for(var j = 0; j < 5; j++) {
+            if(i===j) {
+                hobbies[j].style.display = 'block';
+            } else {
+                hobbies[i].style.display = 'none';
+            }
+        }
+    };
+
+}
+/*
 hobbies[0].onclick = function () {
     for(var i = 0; i < 5; i++) {
         if(i===0) {
@@ -49,6 +63,6 @@ hobbies[4].onclick = function () {
         }
     }
 };
-
+*/
 
 
