@@ -19,40 +19,19 @@ hobbies[0].onclick = function () {
 };
 
 hobbies[1].onclick = function () {
-    console.log("hobby 1 clicked");
+    console.log("hobby 2 clicked");
 };
 
-/*
-function hideHobbies () {
+hobbies[2].onclick = function () {
+    console.log("hobby 3 clicked");
+};
 
-        if(hobbies[0]) {
-        console.log(hobbies[0]);
+hobbies[3].onclick = function () {
+    console.log("hobby 4 clicked");
+};
 
-        }
-        if(hobbies[1]) {
-        console.log(hobbies[1]);
+hobbies[4].onclick = function () {
+    console.log("hobby 5 clicked");
+};
 
-        }
-        if(hobbies[2]) {
-        console.log(hobbies[2]);
-
-        }
-        if(hobbies[3]) {
-        console.log(hobbies[3]);
- 
-        }
-        if(hobbies[4]) {
-        console.log(hobbies[4]);
-   
-        }
-}
-
-hobbies[0].addEventListener('click', hideHobbies, false);
-/*
-    hobbies[0].addEventListener('click', hideHobbies, false);
-    hobbies[1].addEventListener('click', hideHobbies, false);
-    hobbies[2].addEventListener('click', hideHobbies, false);
-    hobbies[3].addEventListener('click', hideHobbies, false);
-    hobbies[4].addEventListener('click', hideHobbies, false);
-    */
 
