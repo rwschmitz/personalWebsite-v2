@@ -1,29 +1,20 @@
 var hobbies = document.getElementsByClassName("icons");
+var active = false;
 
-
-for (var i = 0; i < 5; i++) {
-    hobbies[i].onclick = function () {
-        for(var j = 0; j < 5; j++) {
-            if(i===j) {
-                hobbies[j].style.display = 'block';
-            } else {
-                hobbies[i].style.display = 'none';
-            }
-        }
-    };
-
-}
-/*
 hobbies[0].onclick = function () {
     for(var i = 0; i < 5; i++) {
-        if(i===0) {
+        if(i===0 && active == false) {
             hobbies[0].style.display = 'block';
+            active = true;
+        } else if(i===0 && active == true) {
+            hobbies[i].style.display = 'block';
         } else {
             hobbies[i].style.display = 'none';
         }
     }
 };
 
+/*
 hobbies[1].onclick = function () {
     for(var i = 0; i < 5; i++) {
         if(i===1) {
@@ -62,7 +53,4 @@ hobbies[4].onclick = function () {
             hobbies[i].style.display = 'none';
         }
     }
-};
-*/
-
-
+};*/
