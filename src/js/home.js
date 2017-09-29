@@ -19,8 +19,12 @@ function hideHobbies () {
         hobbies[0].style.display = 'none';
     }
 
-}
-
-for (var i = 0; i < 6; i++) {
+    for (var i = 0; i < 6; i++) {
 hobbies[i].addEventListener('click', hideHobbies, false);
 }
+
+}
+
+/*for (var i = 0; i < 6; i++) {
+hobbies[i].addEventListener('click', hideHobbies, false);
+}*/
