@@ -21,7 +21,7 @@ var hobby4 = document.getElementById("programming");
 
 function hideHobbies () {
     /*for(var i = 0; i < 5; i++) {*/
-        switch(i) {
+        switch(true) {
             case 0:
             hobby0.style.display = 'none';
             break;
