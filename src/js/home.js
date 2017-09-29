@@ -12,9 +12,13 @@ hobby1.addEventListener('click', hideHobby1, false);*/
 
 // spacer
 
-var hobbies = document.getElementsByClassName('icons');
+var hobbies = document.querySelectorAll('.icons');
 
-function hideHobbies () {
+for (var i = 0; i < 5; i++) {
+    console.log(hobbies[i]);
+}
+
+/*function hideHobbies () {
     
     for(var i = 0; i < 5; i++) {
         alert(hobbies[i]);
@@ -28,4 +32,4 @@ for (var i = 0; i < 5; i++) {
 console.log(hobbies[0]);
 }
 
-hobbies[0].addEventListener('click', hideHobbies, false);
+hobbies[0].addEventListener('click', hideHobbies, false);*/
