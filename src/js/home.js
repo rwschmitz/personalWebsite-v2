@@ -38,8 +38,12 @@ function hideHobbies () {
         }
 }
 
-hobbies[0].addEventListener('click', hideHobbies, false);
-hobbies[1].addEventListener('click', hideHobbies, false);
-hobbies[2].addEventListener('click', hideHobbies, false);
-hobbies[3].addEventListener('click', hideHobbies, false);
-hobbies[4].addEventListener('click', hideHobbies, false);
+hobbies.addEventListener('click', hideHobbies, false);
+/*
+    hobbies[0].addEventListener('click', hideHobbies, false);
+    hobbies[1].addEventListener('click', hideHobbies, false);
+    hobbies[2].addEventListener('click', hideHobbies, false);
+    hobbies[3].addEventListener('click', hideHobbies, false);
+    hobbies[4].addEventListener('click', hideHobbies, false);
+    */
+
