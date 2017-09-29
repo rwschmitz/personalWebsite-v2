@@ -17,8 +17,10 @@ var hobbies = document.querySelectorAll('.icons');
 function hideHobbies () {
     for(i = 0; i < 6; i++) {
         hobbies[0].style.display = 'none';
+        hobbies[0].addEventListener('click', hideHobbies, false);
     }
 
 }
 
-hobbies[0].addEventListener('click', hideHobbies, false);
+
+/*hobbies[0].addEventListener('click', hideHobbies, false);*/
