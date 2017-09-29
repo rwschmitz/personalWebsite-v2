@@ -102,6 +102,13 @@
         font-size: $subintro-font-size;
         color: $white;
     }
+
+    .icons {
+        font-size: 25px;
+        border: 1px solid $white;
+        border-radius: 100%;
+        cursor: pointer;
+    }
     
     // Mobile only
     

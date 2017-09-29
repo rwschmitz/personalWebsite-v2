@@ -74,4 +74,10 @@ html, body {
   font-size: 30px;
   color: #fff8dc; }
 
+.icons {
+  font-size: 25px;
+  border: 1px solid #fff8dc;
+  border-radius: 100%;
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
