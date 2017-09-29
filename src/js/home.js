@@ -1,4 +1,5 @@
 var hobbies = document.getElementsByClassName("icons");
+var active = false;
 
 hobbies[0].onclick = function () {
     for(var i = 0; i < 5; i++) {
