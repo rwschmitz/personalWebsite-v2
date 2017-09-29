@@ -13,31 +13,36 @@ hobby1.addEventListener('click', hideHobby1, false);*/
 // spacer
 
 var hobbies = document.querySelectorAll('.icons');
+var hobby0 = document.getElementById("hiking");
+var hobby1 = document.getElementById("cooking");
+var hobby2 = document.getElementById("gaming");
+var hobby3 = document.getElementById("engineering");
+var hobby4 = document.getElementById("programming");
 
 function hideHobbies () {
-    for(var i = 0; i < 5; i++) {
+    /*for(var i = 0; i < 5; i++) {*/
         switch(i) {
             case 0:
-            hobbies[0].style.display = 'none';
+            hobby0.style.display = 'none';
             break;
 
             case 1:
-            hobbies[1].style.display = 'none';
+            hobby1.style.display = 'none';
             break;
 
             case 2:
-            hobbies[2].style.display = 'none';
+            hobby2.style.display = 'none';
             break;
 
             case 3:
-            hobbies[3].style.display = 'none';
+            hobby3.style.display = 'none';
             break;
 
             case 4:
-            hobbies[4].style.display = 'none';
+            hobby4.style.display = 'none';
             break;
         }
-    }
+    /*}*/
 
 }
 
