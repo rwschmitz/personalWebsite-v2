@@ -14,15 +14,11 @@ hobbies[0].onclick = function() {
    if (!active) {
       for (i = 1; i < 5; i++) {
          /*hobbies[i].style.display = 'none';*/
-         $.each(i, function(index,value) {
-             fadeOut();
-         });
          active = true;
       }
    } else {
       for (i = 1; i < 5; i++) {
          /*hobbies[i].style.display = 'block';*/
-         $('.hobbies[i]').fadeIn();
          active = false;
       }
    }
