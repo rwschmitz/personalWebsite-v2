@@ -18,7 +18,8 @@ hobbies[0].onclick = function() {
         }
     } else {
         for(i = 1; i < 5; i++) {
-            hobbies[i].style.display = 'block';
+            /*hobbies[i].style.display = 'block';*/
+            hobbies[i].classList.remove('hobbies-slide');
             active = false;
         }
     }
