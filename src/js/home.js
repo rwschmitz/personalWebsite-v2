@@ -1,11 +1,15 @@
 var hobbies = document.getElementsByClassName("hobbies");
 var active = false;
 
-hobbies[0].onclick = hobbies[2].onclick = hobbies[4].onclick = function() {
-    hobbies[0].classList.add('hobbies-slide-left');
-    hobbies[2].classList.add('hobbies-slide-left');
-    hobbies[4].classList.add('hobbies-slide-left');
-};
+for (i = i; i < 5; i++) {
+    hobbies[i].onclick = function() {
+        hobbies[0].classList.add('hobbies-slide-left');
+        hobbies[1].classList.add('hobbies-slide-right');
+        hobbies[2].classList.add('hobbies-slide-left');
+        hobbies[3].classList.add('hobbies-slide-right');
+        hobbies[4].classList.add('hobbies-slide-left');
+    };
+}
 
 /*
 hobbies[1].onclick = function() {
