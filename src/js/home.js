@@ -9,11 +9,11 @@ For example, hobbies[2].onclick hides and shows elements while excluding element
 var hobbies = document.getElementsByClassName("hobbies");
 var arrows = document.getElementsByClassName("arrows");
 
-for (var i = 0; i < 5; i++) (function(i){
+for (let i = 0; i < 5; i++) {
     hobbies[i].onclick = function() {
         hobbies[i].classList.add('hobbies-slide');
     };
-});
+}
 
 
 /*
