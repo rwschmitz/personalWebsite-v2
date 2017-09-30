@@ -97,3 +97,4 @@ hobbies[4].onclick = function() {
       active = false;
    }
 };
+
