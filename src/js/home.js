@@ -16,7 +16,9 @@ hobbies[0].onclick = function() {
             active = true;
         }
     } else {
-        hobbies[i].style.display = 'block';
-        active = false;
+        for(i = 1; i < 5; i++) {
+            hobbies[i].style.display = 'block';
+            active = false;
+        }
     }
 };
