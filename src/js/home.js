@@ -25,8 +25,7 @@ for (var i = 0; i < 5; i++) {
     };
 }
 
-let element = document.getElementById("hiking");
 
-element.addEventListener("transitionend", function(event) {
+hobbies[0].addEventListener("transitionend", function(event) {
     console.log("event over");
 }, false);
