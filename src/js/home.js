@@ -14,7 +14,7 @@ hobbies[0].onclick = function() {
    if (!active) {
       for (i = 1; i < 5; i++) {
          /*hobbies[i].style.display = 'none';*/
-         $('.hobbies[1]').fadeOut();
+         $("hobbies[1]").fadeOut();
          active = true;
       }
    } else {
