@@ -48,6 +48,8 @@
     }
 
     .info {
+        display: none;
+        position: absolute;
         color: $white;
     }
 }
