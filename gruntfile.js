@@ -7,7 +7,8 @@ module.exports = function(grunt) {
         // Configure jshint to check js files for errors
         jshint: {
             options: {
-                reporter: require('jshint-stylish')
+                reporter: require('jshint-stylish'),
+                "esversion": 6
             },
 
         build: ['Gruntfile.js', 'src/**/*.js']
