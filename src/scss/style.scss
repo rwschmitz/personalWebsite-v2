@@ -98,6 +98,16 @@
         color: $white;
     }
 
+    .default-btn {
+        background: transparent;
+        border: none;
+        color: $white;
+    }
+
+    .default-btn:hover {
+        color: $red;
+    }
+
     .intro {
         font-family: $intro-font;
         font-size: $intro-font-size;

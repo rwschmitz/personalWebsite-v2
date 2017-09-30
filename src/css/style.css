@@ -68,13 +68,21 @@ html, body {
 
 .content {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff8dc; }
 
 .header {
   font-family: "Roboto Slab", serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff8dc; }
+
+.default-btn {
+  background: transparent;
+  border: none;
+  color: #fff8dc; }
+
+.default-btn:hover {
+  color: #ff033a; }
 
 .intro {
   font-family: "Roboto", sans-serif;
