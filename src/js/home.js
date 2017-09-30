@@ -3,19 +3,11 @@ var active = false;
 
 hobbies[0].onclick = function () {
     for(var i = 0; i < 5; i++) {
-        if(i===0 && hobbies[i].style.display == 'block') {
+        if(i===0) {
             hobbies[0].style.display = 'block';
-            hobbies[1].style.display = 'none';
-            hobbies[2].style.display = 'none';
-            hobbies[3].style.display = 'none';
-            hobbies[4].style.display = 'none';
         }
         else {
-            hobbies[0].style.display = 'block';
-            hobbies[1].style.display = 'block';
-            hobbies[2].style.display = 'block';
-            hobbies[3].style.display = 'block';
-            hobbies[4].style.display = 'block';
+            hobbies[i].style.display = 'none';
         }
     }
 };
