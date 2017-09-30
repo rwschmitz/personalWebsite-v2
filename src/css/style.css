@@ -36,11 +36,14 @@
   transition: 1000ms; }
 
 .info-left {
-  opacity: 1;
-  color: #fff8dc; }
+  color: #fff8dc;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; }
 
 .info-right {
-  color: #fff8dc; }
+  color: #fff8dc;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; }
 
 html, body {
   background: #141516;
