@@ -1,5 +1,6 @@
 var hobbies = Array.from(document.getElementsByClassName('hobbies'));
-var classes = ['hobbies-slide-left', 'hobbies-slide-right'];
+var classes = ['hobbies-slide-left'];
+/*var classes = ['hobbies-slide-left', 'hobbies-slide-right'];*/
 
 function addHobbyClass (hobby, index) {
   hobby.classList.add(classes[index % classes.length]);
