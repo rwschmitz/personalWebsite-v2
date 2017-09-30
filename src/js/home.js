@@ -16,8 +16,6 @@ window.onload = function slide () {
     }
 };
 
-window.addEventListener('DOMContentLoaded', slide, false);
-
 window.onload = function arrows () {
     for(i = 0; i < 5; i++) {
         arrows[i].classList.remove('arrows-hidden');
@@ -25,5 +23,3 @@ window.onload = function arrows () {
     }
 
 };
-
-window.addEventListener('DOMContentLoaded', arrows, false);
