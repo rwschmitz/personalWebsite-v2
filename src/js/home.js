@@ -9,7 +9,7 @@ var active = false;
 
 
 
-hobbies[0].onclick = function test () {
+hobbies[0].onclick = function () {
     if (!active) {
         for (i = 1; i < 5; i++) {
             hobbies[i].style.display = 'none';
@@ -97,5 +97,3 @@ hobbies[4].onclick = function() {
       active = false;
    }
 };
-
-setInterval(test,1000);
