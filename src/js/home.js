@@ -10,15 +10,15 @@ var hobbies = document.getElementsByClassName("hobbies");
 var arrows = document.getElementsByClassName("arrows");
 
 
-var slide = window.onload = function () {
+var slideLeft = window.onload = function () {
     for(i = 0; i < 5; i++) {
         hobbies[i].classList.add('hobbies-slide');
     }
 };
 
-window.addEventListener('DOMContentLoaded', slide, false);
+window.addEventListener('DOMContentLoaded', slideLeft, false);
 
-window.onload = function arrows () {
+var arrowsVis = window.onload = function () {
     for(i = 0; i < 5; i++) {
         arrows[i].classList.remove('arrows-hidden');
         arrows[i].classList.add('arrows-visible');
@@ -26,4 +26,4 @@ window.onload = function arrows () {
 
 };
 
-window.addEventListener('DOMContentLoaded', arrows, false);
+window.addEventListener('DOMContentLoaded', arrowsVis, false);
