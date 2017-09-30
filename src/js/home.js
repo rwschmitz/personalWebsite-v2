@@ -1,6 +1,25 @@
 var hobbies = document.getElementsByClassName("icons");
 var active = false;
 
+
+hobbies[0].onclick = function () {
+    if (!active) {
+    hobbies[1].style.display = 'none';
+    hobbies[2].style.display = 'none';
+    hobbies[3].style.display = 'none';
+    hobbies[4].style.display = 'none';
+    active = true;
+    }
+    else {
+    hobbies[1].style.display = 'block';
+    hobbies[2].style.display = 'block';
+    hobbies[3].style.display = 'block';
+    hobbies[4].style.display = 'block';
+    active = false;
+    }
+};
+
+/*
 hobbies[0].onclick = function () {
     for(var i = 0; i < 5; i++) {
         if(i===0) {
