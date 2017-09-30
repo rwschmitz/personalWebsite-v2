@@ -32,7 +32,5 @@ $(function () {
 }
 
 for (var i = 0; i < 5; i++) {
-    hobbies[i].addEventListener("transitionend", function(event) {
-       console.log("event over");
-    }, false);
- }
+    hobbies[i].addEventListener("transitionend", test, false);
+}
