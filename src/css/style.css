@@ -37,6 +37,7 @@
 
 .hobbies-slide {
   padding-right: 800px;
+  padding-right: 800px;
   padding-right: 50rem;
   -webkit-transition: 1000ms;
   -o-transition: 1000ms;
@@ -104,5 +105,4 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: #fff8dc; }
-
 /*# sourceMappingURL=style.css.map */
