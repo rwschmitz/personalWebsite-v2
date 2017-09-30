@@ -5,7 +5,7 @@ for (let i = 0; i < 5; i++) {
     hobbies[i].onmouseover = function() {
         hobbies[i].classList.add('hobbies-slide');
     };
-    hobbies[i].onmouseout = function () {
+    hobbies[i].onclick = function () {
         hobbies[i].classList.remove('hobbies-slide');
     };
 }
