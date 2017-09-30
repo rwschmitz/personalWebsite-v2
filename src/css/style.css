@@ -26,10 +26,8 @@ html, body {
 .underline {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-          box-shadow: 0 0 1px transparent;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden; }
 
@@ -42,15 +40,9 @@ html, body {
   bottom: 0;
   background: #fff8dc;
   height: 1px;
-  -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-out;
-       -o-transition-timing-function: ease-out;
-          transition-timing-function: ease-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-out; }
 
 .underline:hover:before, .underline:focus:before, .underline:active:before {
   left: 0;
@@ -87,10 +79,7 @@ html, body {
   cursor: pointer; }
 
 .icons-slide {
-  padding-right: 120px;
-  padding-right: 120px;
-  padding-right: 7.5rem;
-  -webkit-transition: 1000ms;
-  -o-transition: 1000ms;
+  padding-right: 15rem;
   transition: 1000ms; }
+
 /*# sourceMappingURL=style.css.map */
