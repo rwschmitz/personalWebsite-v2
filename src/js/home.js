@@ -20,6 +20,7 @@ hobbies[0].onclick = function() {
         for(i = 1; i < 5; i++) {
             /*hobbies[i].style.display = 'block';*/
             hobbies[i].classList.remove('hobbies-slide');
+            hobbies[i].classList.add('hobbies-return');
             active = false;
         }
     }
