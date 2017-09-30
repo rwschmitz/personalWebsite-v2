@@ -39,6 +39,8 @@
 
 .hobbies-slide {
   margin-bottom: 160px;
+  margin-bottom: 160px;
+  margin-bottom: 160px;
   margin-bottom: 10rem;
   opacity: 0;
   -webkit-transition: 1000ms;
@@ -46,6 +48,8 @@
   transition: 1000ms; }
 
 .hobbies-return {
+  margin-bottom: 0px;
+  margin-bottom: 0px;
   margin-bottom: 0px;
   margin-bottom: 0rem;
   opacity: 1;
@@ -103,5 +107,4 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: #fff8dc; }
-
 /*# sourceMappingURL=style.css.map */
