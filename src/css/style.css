@@ -26,14 +26,16 @@
 .hobbies {
   width: 10%;
   font-size: 40px;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 1; }
 
 .hobbies-slide {
   margin-right: 50rem;
   transition: 1000ms; }
 
 .arrows {
-  font-size: 40px; }
+  font-size: 40px;
+  z-index: 2; }
 
 .arrows-hidden {
   visibility: hidden; }

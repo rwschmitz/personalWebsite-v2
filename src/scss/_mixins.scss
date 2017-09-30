@@ -36,6 +36,7 @@
         width: 10%;
         font-size: 40px;
         cursor: pointer;
+        z-index: 1;
     }
 
     .hobbies-slide {
@@ -45,6 +46,7 @@
 
     .arrows {
         font-size: 40px;
+        z-index: 2;
     }
 
     .arrows-hidden {
