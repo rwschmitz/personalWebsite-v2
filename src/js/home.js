@@ -25,9 +25,11 @@ for (var i = 0; i < 5; i++) {
     };
 }
 
-$(function test () {
+function test() {
+$(function () {
     $('.info').fadeIn(1000);
 });
+}
 
 for (var i = 0; i < 5; i++) {
     hobbies[i].addEventListener("transitionend", function(event) {
