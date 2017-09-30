@@ -14,6 +14,7 @@ hobbies[0].onclick = function() {
         for(i = 1; i < 5; i++) {
             /*hobbies[i].style.display = 'none';*/
             hobbies[i].classList.add('hobbies-slide');
+            hobbies[i].classList.remove('hobbies-return');
             active = true;
         }
     } else {
