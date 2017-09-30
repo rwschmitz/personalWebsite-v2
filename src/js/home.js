@@ -11,7 +11,7 @@ function hobbyEventListener () {
 }
 
 hobbies.map(function (hobby) {
-  hobby.addEventListener('DOMContentLoaded', hobbyEventListener);
+  hobby.addEventListener("DOMContentLoaded", hobbyEventListener);
   hobby.addEventListener('click', hobbyEventListener);
 });
 
