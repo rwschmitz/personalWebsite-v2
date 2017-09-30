@@ -36,11 +36,10 @@
   transition: 1000ms; }
 
 .info-left {
-  opacity: 0;
+  opacity: 1;
   color: #fff8dc; }
 
 .info-right {
-  display: none;
   color: #fff8dc; }
 
 html, body {
