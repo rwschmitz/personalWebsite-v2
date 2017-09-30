@@ -12,14 +12,12 @@ var active = false;
 hobbies[0].onclick = function() {
     if (!active) {
         for (i = 1; i < 5; i++) {
-            hobbies[i].classList.remove('hobbies-return');
-            hobbies[i].classList.add('hobbies-slide');
+            hobbies[i].style.display = 'none';
             active = true;
         }
     } else {
         for (i = 1; i < 5; i++) {
-            hobbies[i].classList.remove('hobbies-slide');
-            hobbies[i].classList.add('hobbies-return');
+            hobbies[i].style.display = 'block';
             active = false;
         }
     }
