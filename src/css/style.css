@@ -36,8 +36,6 @@
   transition: 1000ms; }
 
 .info {
-  display: none;
-  position: absolute;
   color: #fff8dc; }
 
 html, body {
