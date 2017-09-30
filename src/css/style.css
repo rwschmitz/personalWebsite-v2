@@ -36,11 +36,13 @@
   transition: 1000ms; }
 
 .info-left {
+  position: absolute;
   display: none;
   color: #fff8dc;
   float: left; }
 
 .info-right {
+  position: absolute;
   display: none;
   color: #fff8dc;
   float: right; }
