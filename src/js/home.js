@@ -10,13 +10,11 @@ var hobbies = document.getElementsByClassName("hobbies");
 var arrows = document.getElementsByClassName("arrows");
 
 
-for (j = 0; j < 5; j++) {
-    slideLeft = hobbies[j].onclick = function () {
-        for(i = 0; i < 5; i++) {
-            hobbies[i].classList.add('hobbies-slide');
-        }
-    };
-}
+slideLeft = hobbies[i].onclick = function () {
+    for(i = 0; i < 5; i++) {
+        hobbies[i].classList.add('hobbies-slide');
+    }
+};
 
 
 
