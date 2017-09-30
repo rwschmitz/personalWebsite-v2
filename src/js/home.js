@@ -1,7 +1,7 @@
 var hobbies = document.getElementsByClassName("hobbies");
 var active = false;
 
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
 hobbies[i].onclick = function() {
         hobbies[0].classList.add('hobbies-slide-left');
         hobbies[1].classList.add('hobbies-slide-right');
