@@ -100,4 +100,8 @@ hobbies[4].onclick = function() {
    }
 };
 
-setInterval(hobby1,1000);
+setInterval(test,1000);
+
+function test () {
+    console.log("test");
+}
