@@ -35,8 +35,15 @@
   margin-left: 20rem;
   transition: 1000ms; }
 
-.info {
-  color: #fff8dc; }
+.info-left {
+  display: none;
+  color: #fff8dc;
+  float: left; }
+
+.info-right {
+  display: none;
+  color: #fff8dc;
+  float: right; }
 
 html, body {
   background: #141516;

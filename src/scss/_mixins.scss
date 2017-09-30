@@ -47,7 +47,15 @@
         transition: $slide-time;
     }
 
-    .info {
+    .info-left {
+        display: none;
         color: $white;
+        float: left;
+    }
+
+    .info-right {
+        display: none;
+        color: $white;
+        float: right;
     }
 }
