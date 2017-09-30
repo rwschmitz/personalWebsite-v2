@@ -11,7 +11,7 @@ function hobbyEventListener () {
 }
 
 hobbies.map(function (hobby) {
-  document.addEventListener('DOMContentLoaded', hobbyEventListener);
+  document.addEventListener('loadEvent', hobbyEventListener);
   hobby.addEventListener('mouseover', hobbyEventListener);
   hobby.addEventListener('click', hobbyEventListener);
 });
