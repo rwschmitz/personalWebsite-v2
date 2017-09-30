@@ -2,7 +2,7 @@ var hobbies = document.getElementsByClassName("hobbies");
 var arrows = document.getElementsByClassName("arrows");
 
 for (let i = 0; i < 5; i++) {
-    hobbies[i].onclick = function() {
+    hobbies[i].onmouseover = function() {
         hobbies[i].classList.add('hobbies-slide');
     };
 }
