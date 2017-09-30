@@ -19,16 +19,22 @@ hobbies[0].onclick = function () {
 
 hobbies[1].onclick = function () {
     if (!active) {
-        for(i=2;i<5;i++) {
-    hobbies[i].style.display = 'none';
-    active = true;
+        for(i=0;i<1;i++) {
+            hobbies[i].style.display = 'none';
         }
+        for(j=2;j<5;j++) {
+            hobbies[j].style.display = 'none';
+        }
+        active = true;
     }
     else {
-        for(i=2;i<5;i++) {
-    hobbies[i].style.display = 'block';
-    active = false;
+        for(i=0;i<1;i++) {
+            hobbies[i].style.display = 'block';
         }
+        for(j=2;j<5;j++) {
+            hobbies[j].style.display = 'block';
+        }
+        active = false;
     }
 };
 
