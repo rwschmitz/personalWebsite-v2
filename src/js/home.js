@@ -10,11 +10,13 @@ var hobbies = document.getElementsByClassName("hobbies");
 var arrows = document.getElementsByClassName("arrows");
 
 
-window.onload = function slide () {
+var slide = window.onload = function () {
     for(i = 0; i < 5; i++) {
         hobbies[i].classList.add('hobbies-slide');
     }
 };
+
+window.addEventListener('DOMContentLoaded', slide, false);
 
 window.onload = function arrows () {
     for(i = 0; i < 5; i++) {
@@ -23,3 +25,5 @@ window.onload = function arrows () {
     }
 
 };
+
+window.addEventListener('DOMContentLoaded', arrows, false);
