@@ -1,5 +1,5 @@
 var hobbies = Array.from(document.getElementsByClassName('hobbies'));
-var classes = ['hobbies-slide-left'];
+var classes = ['hobbies-slide-down'];
 /*var classes = ['hobbies-slide-left', 'hobbies-slide-right'];*/
 
 function addHobbyClass (hobby, index) {
@@ -11,14 +11,13 @@ function hobbyEventListener () {
 }
 
 hobbies.map(function (hobby) {
-  hobby.addEventListener('mouseover', hobbyEventListener);
+  hobby.addEventListener('DOMContentLoaded', hobbyEventListener);
   hobby.addEventListener('click', hobbyEventListener);
 });
 
 function test() {
     $(function() {
-       $('.info-left').animate({opacity: 1});
-       $('.info-right').animate({opacity: 1});
+       $('.info-down').animate({opacity: 1});
     });
  }
  
