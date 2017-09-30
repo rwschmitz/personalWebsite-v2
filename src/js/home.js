@@ -9,18 +9,11 @@ For example, hobbies[2].onclick hides and shows elements while excluding element
 var hobbies = document.getElementsByClassName("hobbies");
 var arrows = document.getElementsByClassName("arrows");
 
-for(i = 0; i < 5; i++) {
-    hobbies[i].onclick = test();
-
-}
-
-var test = function () {
-    hobbies[i].classList.add('hobbies-slide');
-};
 
 
-/*
-hobbies.onclick = function () {
+
+
+hobbies[0].onclick = function () {
     for(i = 0; i < 5; i++) {
         hobbies[i].classList.add('hobbies-slide');
     }
@@ -36,4 +29,4 @@ arrowsVis = window.onload = function () {
 
 };
 
-*/
+
