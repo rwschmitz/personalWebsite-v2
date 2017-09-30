@@ -25,7 +25,9 @@ for (var i = 0; i < 5; i++) {
     };
 }
 
+for(var i = 0; i < 5; i++) {
 
-hobbies[0].addEventListener("transitionend", function(event) {
+hobbies[i].addEventListener("transitionend", function(event) {
     console.log("event over");
 }, false);
+}
