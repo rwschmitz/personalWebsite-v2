@@ -11,6 +11,7 @@
     // Site wide variables start
     
     $slide-time: 1000ms;
+    $hover-time: 250ms;
 
     // Site wide variables end
 
@@ -105,6 +106,7 @@
     }
 
     .default-btn:hover {
+        transition-duration: $hover-time;
         color: $red;
     }
 

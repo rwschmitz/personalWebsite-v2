@@ -1,3 +1,5 @@
+/* jshint ignore:start */
+
 var hobbies = document.getElementsByClassName("hobbies");
 var active = false;
 
@@ -24,3 +26,5 @@ for (var i = 0; i < 5; i++) {
             hobbies[4].classList.add('hobbies-slide-left');
     };
 }
+
+/* jshint ignore:end */
