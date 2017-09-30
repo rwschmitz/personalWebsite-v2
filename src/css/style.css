@@ -79,7 +79,8 @@ html, body {
 .default-btn {
   background: transparent;
   border: none;
-  color: #fff8dc; }
+  color: #fff8dc;
+  cursor: pointer; }
 
 .default-btn:hover {
   transition-duration: 250ms;
