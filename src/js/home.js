@@ -5,9 +5,6 @@ for (let i = 0; i < 5; i++) {
     hobbies[i].onclick = function() {
         hobbies[i].classList.add('hobbies-slide');
     };
-    hobbies[i].onclick = function () {
-        hobbies[i].classList.remove('hobbies-slide');
-    };
 }
 
 
