@@ -37,7 +37,11 @@
 
 .hobbies-slide-down {
   margin-top: 48px;
+  margin-top: 48px;
+  margin-top: 48px;
   margin-top: 3rem;
+  margin-bottom: 48px;
+  margin-bottom: 48px;
   margin-bottom: 48px;
   margin-bottom: 3rem;
   -webkit-transition: 1000ms;
@@ -115,5 +119,4 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: #fff8dc; }
-
 /*# sourceMappingURL=style.css.map */

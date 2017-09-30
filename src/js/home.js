@@ -11,7 +11,8 @@ function hobbyEventListener () {
 }
 
 hobbies.map(function (hobby) {
-  hobby.addEventListener("DOMContentLoaded", hobbyEventListener);
+  document.addEventListener('DOMContentLoaded', hobbyEventListener);
+  hobby.addEventListener('mouseover', hobbyEventListener);
   hobby.addEventListener('click', hobbyEventListener);
 });
 
@@ -24,6 +25,8 @@ function test() {
 for (var i = 0; i < 5; i++) {
     hobbies[i].addEventListener("transitionend", test, false);
 }
+
+
 
 /* Old code
 
