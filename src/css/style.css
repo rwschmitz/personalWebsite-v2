@@ -35,6 +35,10 @@
   margin-left: 20rem;
   transition: 1000ms; }
 
+.info {
+  display: none;
+  color: #fff8dc; }
+
 html, body {
   background: #141516;
   margin: 0;
