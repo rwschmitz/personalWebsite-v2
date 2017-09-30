@@ -27,4 +27,32 @@
         left: 0;
         right: 0;
     }
+
+}
+
+@mixin home {
+
+    .hobbies {
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .hobbies-slide {
+        padding-right: 50rem;
+        transition: $slide-time;
+    }
+
+    .arrows {
+        font-size: 40px;
+    }
+
+    .arrows-hidden {
+        visibility: hidden;
+    }
+
+    .arrows-visible {
+        visibility: visible;
+        transition: $arrow-time;
+    }
+
 }

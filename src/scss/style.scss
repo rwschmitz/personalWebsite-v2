@@ -11,6 +11,7 @@
     // Site wide variables start
     
     $slide-time: 1000ms;
+    $arrow-time: 1000ms;
 
     // Site wide variables end
 
@@ -26,6 +27,13 @@
 // ##### VARIABLES END #####
 
 // ##### MIXINS START #####
+
+    // Site wide mixins start
+
+    @include underline; // Include mixin for underline animation for nav bar
+    @include home; // Include mixin for home animation
+
+    // Site wide mixins end
 
     // Mobile mixins start
 
@@ -71,8 +79,6 @@
         font-weight: $nav-font-weight;
     }
 
-    @include underline; // Include mixin for underline animation for nav bar.
-
     .nav-btn:focus {
         outline: 0;
     }
@@ -103,16 +109,6 @@
         font-family: $subintro-font;
         font-size: $subintro-font-size;
         color: $white;
-    }
-
-    .icons {
-        font-size: 40px;
-        cursor: pointer;
-    }
-
-    .icons-slide {
-        padding-right: 15rem;
-        transition: $slide-time;
     }
     
     // Mobile only
