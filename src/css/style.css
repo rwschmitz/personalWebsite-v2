@@ -37,13 +37,11 @@
 
 .info-left {
   display: none;
-  color: #fff8dc;
-  float: left; }
+  color: #fff8dc; }
 
 .info-right {
   display: none;
-  color: #fff8dc;
-  float: right; }
+  color: #fff8dc; }
 
 html, body {
   background: #141516;
