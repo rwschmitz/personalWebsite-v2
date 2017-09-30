@@ -16,8 +16,8 @@ hobbies.map(function (hobby) {
 
 function test() {
     $(function() {
-       $('.info-left').fadeIn(1000);
-       $('.info-right').fadeIn(1000);
+       $('.info-left').fadeTo(1000);
+       $('.info-right').fadeTo(1000);
     });
  }
  
