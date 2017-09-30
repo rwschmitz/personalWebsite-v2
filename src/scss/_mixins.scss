@@ -33,6 +33,7 @@
 @mixin home {
 
     .hobbies {
+        display: block;
         font-size: 40px;
         cursor: pointer;
     }
