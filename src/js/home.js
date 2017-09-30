@@ -4,6 +4,10 @@ var active = false;
 
 hobbies[0].onclick = function() {
         hobbies[0].classList.add('hobbies-slide-left');
+        hobbies[1].classList.add('hobbies-slide-left');
+        hobbies[2].classList.add('hobbies-slide-left');
+        hobbies[3].classList.add('hobbies-slide-left');
+        hobbies[4].classList.add('hobbies-slide-left');
 };
 
 
