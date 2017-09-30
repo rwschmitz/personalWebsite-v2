@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', slide, false);
 window.onload = function arrows () {
     for(i = 0; i < 5; i++) {
         arrows[i].classList.remove('arrows-hidden');
-        arrows[i].classList.remove('arrows-visible');
+        arrows[i].classList.add('arrows-visible');
     }
 
 };
