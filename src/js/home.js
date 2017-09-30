@@ -13,12 +13,12 @@ var active = false;
 hobbies[0].onclick = function() {
    if (!active) {
       for (i = 1; i < 5; i++) {
-         /*hobbies[i].style.display = 'none';*/
+         hobbies[i].style.display = 'none';
          active = true;
       }
    } else {
       for (i = 1; i < 5; i++) {
-         /*hobbies[i].style.display = 'block';*/
+         hobbies[i].style.display = 'block';
          active = false;
       }
    }
