@@ -1,5 +1,3 @@
-/* jshint ignore:start */
-
 var hobbies = document.getElementsByClassName("hobbies");
 var active = false;
 
@@ -27,4 +25,8 @@ for (var i = 0; i < 5; i++) {
     };
 }
 
-/* jshint ignore:end */
+let element = document.getElementById("hiking");
+
+element.addEventListener("transitionend", function(event) {
+    console.log("event over");
+}, false);
