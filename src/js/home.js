@@ -10,19 +10,21 @@ var hobbies = document.getElementsByClassName("icons");
 var active = false;
 
 
-hobbies[0].onclick = function() {
-   if (!active) {
-      for (i = 1; i < 5; i++) {
-         hobbies[i].style.display = 'none';
-         active = true;
-      }
-   } else {
-      for (i = 1; i < 5; i++) {
-         hobbies[i].style.display = 'block';
-         active = false;
-      }
-   }
-};
+function hobby1 () {
+    hobbies[0].onclick = function() {
+        if (!active) {
+            for (i = 1; i < 5; i++) {
+                hobbies[i].style.display = 'none';
+                active = true;
+            }
+        } else {
+            for (i = 1; i < 5; i++) {
+                hobbies[i].style.display = 'block';
+                active = false;
+            }
+        }
+    };
+}
 
 hobbies[1].onclick = function() {
    if (!active) {
@@ -97,3 +99,5 @@ hobbies[4].onclick = function() {
       active = false;
    }
 };
+
+setInterval(hobby1,1000);
