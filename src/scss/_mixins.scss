@@ -39,11 +39,13 @@
 
     .hobbies-slide {
         margin-bottom: 10rem;
+        visibility: hidden;
         transition: $slide-time;
     }
 
     .hobbies-return {
         margin-bottom: 0rem;
+        visibility: visible;
         transition: $slide-time;
     }
 }
