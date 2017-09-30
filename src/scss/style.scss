@@ -8,7 +8,9 @@
 
 // ##### VARIABLES START #####
 
-    // Site wide variables start  
+    // Site wide variables start
+    
+    $slide-time: 1000ms;
 
     // Site wide variables end
 
@@ -106,6 +108,11 @@
     .icons {
         font-size: 40px;
         cursor: pointer;
+    }
+
+    .icons-slide {
+        padding-right: 7.5rem;
+        transition: $slide-time;
     }
     
     // Mobile only

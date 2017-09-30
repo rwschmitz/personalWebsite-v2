@@ -9,93 +9,10 @@ For example, hobbies[2].onclick hides and shows elements while excluding element
 var hobbies = document.getElementsByClassName("icons");
 var active = false;
 
-/* Using my code (https://jsfiddle.net/rwschmitz/6asky806/32/) to animate */
-
-hobbies[0].onclick = function() {
-    if (!active) {
-        for (i = 1; i < 5; i++) {
-            hobbies[i].style.display = 'none';
-            active = true;
-        }
-    } else {
-        for (i = 1; i < 5; i++) {
-            hobbies[i].style.display = 'block';
-            active = false;
-        }
+window.onload = function slide() {
+    for(i = 0; i < 5; i++) {
+        hobbies[i].classList.add('icons-slide');
     }
 };
 
-
-hobbies[1].onclick = function() {
-   if (!active) {
-      for (i = 0; i < 1; i++) {
-         hobbies[i].style.display = 'none';
-      }
-      for (j = 2; j < 5; j++) {
-         hobbies[j].style.display = 'none';
-      }
-      active = true;
-   } else {
-      for (i = 0; i < 1; i++) {
-         hobbies[i].style.display = 'block';
-      }
-      for (j = 2; j < 5; j++) {
-         hobbies[j].style.display = 'block';
-      }
-      active = false;
-   }
-};
-
-hobbies[2].onclick = function() {
-   if (!active) {
-      for (i = 0; i < 2; i++) {
-         hobbies[i].style.display = 'none';
-      }
-      for (j = 3; j < 5; j++) {
-         hobbies[j].style.display = 'none';
-      }
-      active = true;
-   } else {
-      for (i = 0; i < 2; i++) {
-         hobbies[i].style.display = 'block';
-      }
-      for (j = 3; j < 5; j++) {
-         hobbies[j].style.display = 'block';
-      }
-      active = false;
-   }
-};
-
-hobbies[3].onclick = function() {
-   if (!active) {
-      for (i = 0; i < 3; i++) {
-         hobbies[i].style.display = 'none';
-      }
-      for (j = 4; j < 5; j++) {
-         hobbies[j].style.display = 'none';
-      }
-      active = true;
-   } else {
-      for (i = 0; i < 3; i++) {
-         hobbies[i].style.display = 'block';
-      }
-      for (j = 4; j < 5; j++) {
-         hobbies[j].style.display = 'block';
-      }
-      active = false;
-   }
-};
-
-hobbies[4].onclick = function() {
-   if (!active) {
-      for (i = 0; i < 4; i++) {
-         hobbies[i].style.display = 'none';
-      }
-      active = true;
-   } else {
-      for (i = 0; i < 4; i++) {
-         hobbies[i].style.display = 'block';
-      }
-      active = false;
-   }
-};
+window.addEventListener('DOMContentLoaded', slide, false);

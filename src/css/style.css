@@ -85,4 +85,12 @@ html, body {
 .icons {
   font-size: 40px;
   cursor: pointer; }
+
+.icons-slide {
+  padding-right: 120px;
+  padding-right: 120px;
+  padding-right: 7.5rem;
+  -webkit-transition: 1000ms;
+  -o-transition: 1000ms;
+  transition: 1000ms; }
 /*# sourceMappingURL=style.css.map */
