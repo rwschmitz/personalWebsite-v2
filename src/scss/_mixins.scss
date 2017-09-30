@@ -48,14 +48,14 @@
     }
 
     .info-left {
-        opacity: 0;
+        display: none;
         color: $white;
         font-family: $content-font;
         font-size: $content-font-size;
     }
 
     .info-right {
-        opacity: 0;
+        display: none;
         color: $white;
         font-family: $content-font;
         font-size: $content-font-size;
