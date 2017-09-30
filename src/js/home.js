@@ -8,7 +8,7 @@ var hobbies = document.getElementsByClassName("icons");
 var active = false;
 
 
-
+$(function() {
 hobbies[0].onclick = function () {
     if (!active) {
         for (i = 1; i < 5; i++) {
@@ -97,3 +97,4 @@ hobbies[4].onclick = function() {
       active = false;
    }
 };
+});
