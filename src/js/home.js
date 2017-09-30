@@ -1,14 +1,6 @@
 var hobbies = document.getElementsByClassName("hobbies");
 var active = false;
 
-/*
-for (let i = 0; i < 5; i++) {
-    hobbies[i].onclick = function() {
-        hobbies[i].classList.add('hobbies-slide');
-    };
-}
-*/
-
 hobbies[0].onclick = function() {
     if(!active) {
         for(i = 1; i < 5; i++) {
@@ -26,3 +18,23 @@ hobbies[0].onclick = function() {
         }
     }
 };
+
+hobbies[1].onclick = function() {
+    if (!active) {
+       for (i = 0; i < 1; i++) {
+          hobbies[i].style.display = 'none';
+       }
+       for (j = 2; j < 5; j++) {
+          hobbies[j].style.display = 'none';
+       }
+       active = true;
+    } else {
+       for (i = 0; i < 1; i++) {
+          hobbies[i].style.display = 'block';
+       }
+       for (j = 2; j < 5; j++) {
+          hobbies[j].style.display = 'block';
+       }
+       active = false;
+    }
+ };
