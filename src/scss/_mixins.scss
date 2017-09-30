@@ -37,17 +37,13 @@
         cursor: pointer;
     }
 
-    .hobbies-slide {
+    .hobbies-slide-left {
         margin-right: 5rem;
-        opacity: 0;
-        visibility: hidden;
         transition: $slide-time;
     }
 
-    .hobbies-return {
-        margin-right: 0rem;
-        opacity: 1;
-        visibility: visible;
+    .hobbies-slide-right {
+        margin-left: 5rem;
         transition: $slide-time;
     }
 }
