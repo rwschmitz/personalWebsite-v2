@@ -30,18 +30,13 @@
   z-index: 1; }
 
 .hobbies-slide {
-  margin-bottom: 50rem;
+  margin-bottom: 10rem;
+  opacity: 0;
   transition: 1000ms; }
 
-.arrows {
-  font-size: 40px;
-  z-index: 2; }
-
-.arrows-hidden {
-  visibility: hidden; }
-
-.arrows-visible {
-  visibility: visible;
+.hobbies-return {
+  margin-bottom: 0rem;
+  opacity: 1;
   transition: 1000ms; }
 
 html, body {
