@@ -9,9 +9,9 @@ For example, hobbies[2].onclick hides and shows elements while excluding element
 var hobbies = document.getElementsByClassName("icons");
 var active = false;
 
+/* Using my code (https://jsfiddle.net/rwschmitz/6asky806/32/) to animate */
 
-
-hobbies[0].onclick = function test () {
+hobbies[0].onclick = function() {
     if (!active) {
         for (i = 1; i < 5; i++) {
             hobbies[i].style.display = 'none';
@@ -99,5 +99,3 @@ hobbies[4].onclick = function() {
       active = false;
    }
 };
-
-setInterval(test,1000);
