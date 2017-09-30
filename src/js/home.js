@@ -1,8 +1,3 @@
-/*var hobbies = document.getElementsByClassName("hobbies");
-var active = false;*/
-
-
-
 var hobbies = Array.from(document.getElementsByClassName('hobbies'));
 var classes = ['hobbies-slide-left', 'hobbies-slide-right'];
 
@@ -25,12 +20,14 @@ function test() {
     });
  }
  
-
 for (var i = 0; i < 5; i++) {
     hobbies[i].addEventListener("transitionend", test, false);
 }
 
 /* Old code
+
+/*var hobbies = document.getElementsByClassName("hobbies");
+var active = false;*/
 
 // For mouse input
 
