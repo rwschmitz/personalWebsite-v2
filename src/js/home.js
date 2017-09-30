@@ -14,7 +14,7 @@ for(i = 0; i < 5; i++) {
 
 }
 
-test = function () {
+var test = function () {
     hobbies[i].classList.add('hobbies-slide');
 };
 
