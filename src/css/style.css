@@ -147,9 +147,8 @@ html, body {
   outline: 0; }
 
 .banner {
-  background-image: url("../imgs/forest.jpeg");
-  width: 100%;
-  min-height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.1)), url("../imgs/forest.jpeg");
+  min-height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
