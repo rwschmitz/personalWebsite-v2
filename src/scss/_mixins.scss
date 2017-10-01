@@ -30,6 +30,8 @@
 
 }
 
+// Mixin used to animate the home section on devices >= 1200px
+
 @mixin home {
 
     .fa {
@@ -58,7 +60,7 @@
         transform: translate(14.7rem, 3rem) rotateZ(-360deg);
         padding: 1rem;
         color: $red;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
    
     }
 
@@ -66,76 +68,76 @@
         transform: translate(8.5rem, 6rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $yellow;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
     }
 
     .home-icons3 {
         transform: translate(0.9rem, 9rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $red;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
     }
 
     .home-icons4 {
         transform: translate(-5rem, 12rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $yellow;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
     }
 
     .home-icons5 {
         transform: translate(-11.5rem, 15rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $red;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
     }
 
     .home-icons6 {
         transform: translate(-19.2rem, 18rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $yellow;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
     }
 
     .home-text {
         transform: translate(4rem, 0rem);
         color: $red;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text2 {
         transform: translate(4.27rem, 0rem);
         color: $yellow;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text3 {
         transform: translate(4.32rem, 0rem);
         color: $red;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text4 {
         transform: translate(3.96rem, 0rem);
         color: $yellow;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text5 {
         transform: translate(4.44rem, 0rem);
         color: $red;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text6 {
         transform: translate(3.8rem, 0rem);
         color: $yellow;
-        transition-duration: 200ms;
+        transition-duration: $home-time;
         opacity: 1;
     }
 

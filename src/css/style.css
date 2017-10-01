@@ -158,10 +158,11 @@ html, body {
   background: transparent;
   border: none;
   color: #fff8dc;
-  cursor: pointer; }
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: linear; }
 
 .default-btn:hover {
-  transition-duration: 250ms;
   color: #ff033a; }
 
 .default-btn:focus {

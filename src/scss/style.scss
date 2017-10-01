@@ -10,7 +10,7 @@
 
     // Site wide variables start
     
-    $slide-time: 1000ms;
+    $home-time: 200ms;
     $hover-time: 250ms;
 
     // Site wide variables end
@@ -104,10 +104,11 @@
         border: none;
         color: $white;
         cursor: pointer;
+        transition-duration: $hover-time;
+        transition-timing-function: linear;
     }
 
     .default-btn:hover {
-        transition-duration: $hover-time;
         color: $red;
     }
 
