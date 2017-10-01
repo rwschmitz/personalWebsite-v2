@@ -104,10 +104,4 @@ html, body {
   font-size: 30px;
   color: #fff8dc; }
 
-.banner {
-  background-image: url("src/imgs/keyboard.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-
 /*# sourceMappingURL=style.css.map */
