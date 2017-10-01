@@ -33,7 +33,9 @@
 @mixin home {
 
     .hobbies {
-        font-size: 40px;
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         cursor: pointer;
     }
 
@@ -45,10 +47,52 @@
 
     .info-down {
         opacity: 0;
-        color: $white;
+        color: $yellow;
         font-family: $content-font;
         font-size: $content-font-size;
-        padding: 10px;
-        text-align: justify;
     }
+
+    .test {
+        transform: translate(-20.4rem) rotateZ(-360deg);
+        padding: 1rem;
+        color: $red;
+        transition-duration: 200ms;
+   
+    }
+
+    .test2 {
+        transform: translate(-24.4rem, 3rem) rotateZ(-360deg);
+        padding: 1rem; 
+        color: $yellow;
+        transition-duration: 200ms;
+    }
+
+    .test3 {
+        transform: translate(-28.1rem, 6rem) rotateZ(-360deg);
+        padding: 1rem; 
+        color: $red;
+        transition-duration: 200ms;
+    }
+
+    .test4 {
+        transform: translate(-31.7rem, 9rem) rotateZ(-360deg);
+        padding: 1rem; 
+        color: $yellow;
+        transition-duration: 200ms;
+    }
+
+    .test5 {
+        transform: translate(-35.8rem, 12rem) rotateZ(-360deg);
+        padding: 1rem; 
+        color: $red;
+        transition-duration: 200ms;
+    }
+
+    .test6 {
+        transform: translate(-38.9rem, 15rem) rotateZ(-360deg);
+        padding: 1rem; 
+        color: $yellow;
+        transition-duration: 200ms;
+    }
+
 }

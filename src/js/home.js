@@ -1,51 +1,34 @@
-var hobbies = Array.from(document.getElementsByClassName('hobbies'));
-var classes = ['hobbies-slide-down'];
+var hobbies = document.getElementsByClassName("hobbies");
+var active = false;
 
-// For mouseover OR click
+hobbies[0].onclick = function() {
+   hobbies[0].classList.add("test");
+};
 
-function addHobbyClass (hobby, index) {
-  hobby.classList.add(classes[index % classes.length]);
+function nextIcon() {
+   hobbies[1].classList.add("test2");
 }
 
-function hobbyEventListener () {
-  hobbies.forEach(addHobbyClass);
+function nextIcon2() {
+   hobbies[2].classList.add("test3");
 }
 
-hobbies.map(function (hobby) {
-  hobby.addEventListener('mouseover', hobbyEventListener);
-  hobby.addEventListener('click', hobbyEventListener);
-});
-
-// For scrolling
-
-var last_known_scroll_position = 0;
-var ticking = false;
-
-function scrollDown(scroll_pos) {
- hobbies[0].classList.add('hobbies-slide-down');
- hobbies[1].classList.add('hobbies-slide-down');
- hobbies[2].classList.add('hobbies-slide-down');
- hobbies[3].classList.add('hobbies-slide-down');
- hobbies[4].classList.add('hobbies-slide-down');
+function nextIcon3() {
+   hobbies[3].classList.add("test4");
 }
 
-window.addEventListener('scroll', function(e) {
-  last_known_scroll_position = window.scrollY;
-  if (!ticking) {
-    window.requestAnimationFrame(function() {
-      scrollDown(last_known_scroll_position);
-      ticking = false;
-    });
-  }
-  ticking = true;
-});
-
-function animateText() {
-    $(function() {
-       $('.info-down').animate({opacity: 1});
-    });
- }
- 
-for (var i = 0; i < 5; i++) {
-    hobbies[i].addEventListener("transitionend", animateText, false);
+function nextIcon4() {
+   hobbies[4].classList.add("test5");
 }
+
+function nextIcon5() {
+   hobbies[5].classList.add("test6");
+}
+
+
+
+hobbies[0].addEventListener("transitionend", nextIcon, false);
+hobbies[1].addEventListener("transitionend", nextIcon2, false);
+hobbies[2].addEventListener("transitionend", nextIcon3, false);
+hobbies[3].addEventListener("transitionend", nextIcon4, false);
+hobbies[4].addEventListener("transitionend", nextIcon5, false);
