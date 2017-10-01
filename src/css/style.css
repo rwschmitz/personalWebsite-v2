@@ -147,7 +147,7 @@ html, body {
   outline: 0; }
 
 .banner {
-  background-image: url("../src/imgs/forest.jpeg");
+  background-image: url("../src/imgs/forest.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
