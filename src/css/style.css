@@ -1,10 +1,8 @@
 .underline {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-          box-shadow: 0 0 1px transparent;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden; }
 
@@ -17,15 +15,9 @@
   bottom: 0;
   background: #fff8dc;
   height: 1px;
-  -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-out;
-       -o-transition-timing-function: ease-out;
-          transition-timing-function: ease-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-out; }
 
 .underline:hover:before, .underline:focus:before, .underline:active:before {
   left: 0;
@@ -36,25 +28,17 @@
   cursor: pointer; }
 
 .hobbies-slide-down {
-  margin-top: 48px;
-  margin-top: 48px;
-  margin-top: 48px;
-  margin-top: 48px;
   margin-top: 3rem;
-  margin-bottom: 48px;
-  margin-bottom: 48px;
-  margin-bottom: 48px;
-  margin-bottom: 48px;
   margin-bottom: 3rem;
-  -webkit-transition: 1000ms;
-  -o-transition: 1000ms;
   transition: 1000ms; }
 
 .info-down {
   opacity: 0;
   color: #fff8dc;
   font-family: "Roboto", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  padding: 10px;
+  text-align: justify; }
 
 html, body {
   background: #141516;
@@ -104,9 +88,7 @@ html, body {
   cursor: pointer; }
 
 .default-btn:hover {
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
+  transition-duration: 250ms;
   color: #ff033a; }
 
 .default-btn:focus {
@@ -121,4 +103,11 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: #fff8dc; }
+
+.banner {
+  background-image: url("src/imgs/keyboard.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
 /*# sourceMappingURL=style.css.map */

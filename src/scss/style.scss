@@ -126,6 +126,13 @@
         font-size: $subintro-font-size;
         color: $white;
     }
+
+    .banner {
+        background-image: url('src/imgs/keyboard.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     
     // Mobile only
     
