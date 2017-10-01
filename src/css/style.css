@@ -1,10 +1,8 @@
 .underline {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-          box-shadow: 0 0 1px transparent;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden; }
 
@@ -17,15 +15,9 @@
   bottom: 0;
   background: #fff8dc;
   height: 1px;
-  -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-out;
-       -o-transition-timing-function: ease-out;
-          transition-timing-function: ease-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-out; }
 
 .underline:hover:before, .underline:focus:before, .underline:active:before {
   left: 0;
@@ -33,15 +25,11 @@
 
 .fa {
   position: relative;
-  left: 88px;
   left: 5.5rem; }
 
 .hobbies {
-  font-size: 32px;
   font-size: 2rem;
-  padding-left: 32px;
   padding-left: 2rem;
-  padding-right: 32px;
   padding-right: 2rem;
   cursor: pointer; }
 
@@ -53,130 +41,76 @@
   font-size: 16px;
   opacity: 0; }
 
-.test {
-  -webkit-transform: translate(14.7rem, 3rem) rotateZ(-360deg);
-      -ms-transform: translate(14.7rem, 3rem) rotate(-360deg);
-          transform: translate(14.7rem, 3rem) rotateZ(-360deg);
-  padding: 16px;
+.home-icons {
+  transform: translate(14.7rem, 3rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
-.test2 {
-  -webkit-transform: translate(8.5rem, 6rem) rotateZ(-360deg);
-      -ms-transform: translate(8.5rem, 6rem) rotate(-360deg);
-          transform: translate(8.5rem, 6rem) rotateZ(-360deg);
-  padding: 16px;
+.home-icons2 {
+  transform: translate(8.5rem, 6rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ffc803;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
-.test3 {
-  -webkit-transform: translate(0.9rem, 9rem) rotateZ(-360deg);
-      -ms-transform: translate(0.9rem, 9rem) rotate(-360deg);
-          transform: translate(0.9rem, 9rem) rotateZ(-360deg);
-  padding: 16px;
+.home-icons3 {
+  transform: translate(0.9rem, 9rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
-.test4 {
-  -webkit-transform: translate(-5rem, 12rem) rotateZ(-360deg);
-      -ms-transform: translate(-5rem, 12rem) rotate(-360deg);
-          transform: translate(-5rem, 12rem) rotateZ(-360deg);
-  padding: 16px;
+.home-icons4 {
+  transform: translate(-5rem, 12rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ffc803;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
-.test5 {
-  -webkit-transform: translate(-11.5rem, 15rem) rotateZ(-360deg);
-      -ms-transform: translate(-11.5rem, 15rem) rotate(-360deg);
-          transform: translate(-11.5rem, 15rem) rotateZ(-360deg);
-  padding: 16px;
+.home-icons5 {
+  transform: translate(-11.5rem, 15rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
-.test6 {
-  -webkit-transform: translate(-19.2rem, 18rem) rotateZ(-360deg);
-      -ms-transform: translate(-19.2rem, 18rem) rotate(-360deg);
-          transform: translate(-19.2rem, 18rem) rotateZ(-360deg);
-  padding: 16px;
+.home-icons6 {
+  transform: translate(-19.2rem, 18rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ffc803;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
-.blah {
-  -webkit-transform: translate(4rem, 0rem);
-      -ms-transform: translate(4rem, 0rem);
-          transform: translate(4rem, 0rem);
+.home-text {
+  transform: translate(4rem, 0rem);
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
-.blah2 {
-  -webkit-transform: translate(4.27rem, 0rem);
-      -ms-transform: translate(4.27rem, 0rem);
-          transform: translate(4.27rem, 0rem);
+.home-text2 {
+  transform: translate(4.27rem, 0rem);
   color: #ffc803;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
-.blah3 {
-  -webkit-transform: translate(4.32rem, 0rem);
-      -ms-transform: translate(4.32rem, 0rem);
-          transform: translate(4.32rem, 0rem);
+.home-text3 {
+  transform: translate(4.32rem, 0rem);
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
-.blah4 {
-  -webkit-transform: translate(3.96rem, 0rem);
-      -ms-transform: translate(3.96rem, 0rem);
-          transform: translate(3.96rem, 0rem);
+.home-text4 {
+  transform: translate(3.96rem, 0rem);
   color: #ffc803;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
-.blah5 {
-  -webkit-transform: translate(4.44rem, 0rem);
-      -ms-transform: translate(4.44rem, 0rem);
-          transform: translate(4.44rem, 0rem);
+.home-text5 {
+  transform: translate(4.44rem, 0rem);
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
-.blah6 {
-  -webkit-transform: translate(3.8rem, 0rem);
-      -ms-transform: translate(3.8rem, 0rem);
-          transform: translate(3.8rem, 0rem);
+.home-text6 {
+  transform: translate(3.8rem, 0rem);
   color: #ffc803;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
 html, body {
@@ -227,9 +161,7 @@ html, body {
   cursor: pointer; }
 
 .default-btn:hover {
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
+  transition-duration: 250ms;
   color: #ff033a; }
 
 .default-btn:focus {
