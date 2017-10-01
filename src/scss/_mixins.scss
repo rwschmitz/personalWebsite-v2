@@ -114,14 +114,14 @@
     }
 
     .home-text3 {
-        transform: translate(-1.9rem, 3.5rem);
+        transform: translate(-1.99rem, 3.5rem);
         color: $white;
         transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text4 {
-        transform: translate(-2.5rem, 3.5rem);
+        transform: translate(-2.65rem, 3.5rem);
         color: $white;
         transition-duration: $home-time;
         opacity: 1;
@@ -149,9 +149,13 @@
         background-color: transparent;
     }
 
-    .testclass {
+    .testhide {
         transition-duration: 1000ms;
         opacity: 0.25;
     }
 
+    .testshow {
+        transition-duration: 1000ms;
+        opacity: 1;
+    }
 }

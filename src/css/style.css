@@ -2,10 +2,8 @@
 .underline {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-          box-shadow: 0 0 1px transparent;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden; }
 
@@ -18,15 +16,9 @@
   bottom: 0;
   background: #fff8dc;
   height: 1px;
-  -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-out;
-       -o-transition-timing-function: ease-out;
-          transition-timing-function: ease-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-out; }
 
 .underline:hover:before, .underline:focus:before, .underline:active:before {
   left: 0;
@@ -34,63 +26,11 @@
 
 .fa-rs {
   position: relative;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
-  left: 88px;
   left: 5.5rem; }
 
 .hobbies {
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
-  font-size: 32px;
   font-size: 2rem;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
-  padding-left: 32px;
   padding-left: 2rem;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
-  padding-right: 32px;
   padding-right: 2rem;
   cursor: pointer; }
 
@@ -103,201 +43,75 @@
   opacity: 0; }
 
 .home-icons {
-  -webkit-transform: rotateZ(-360deg);
-      -ms-transform: rotate(-360deg);
-          transform: rotateZ(-360deg);
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
+  transform: rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
 .home-icons2 {
-  -webkit-transform: rotateZ(-360deg);
-      -ms-transform: rotate(-360deg);
-          transform: rotateZ(-360deg);
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
+  transform: rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
 .home-icons3 {
-  -webkit-transform: translate(-1rem, 0rem) rotateZ(-360deg);
-      -ms-transform: translate(-1rem, 0rem) rotate(-360deg);
-          transform: translate(-1rem, 0rem) rotateZ(-360deg);
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
+  transform: translate(-1rem, 0rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
 .home-icons4 {
-  -webkit-transform: translate(-0.5rem, 0rem) rotateZ(-360deg);
-      -ms-transform: translate(-0.5rem, 0rem) rotate(-360deg);
-          transform: translate(-0.5rem, 0rem) rotateZ(-360deg);
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
+  transform: translate(-0.5rem, 0rem) rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
 .home-icons5 {
-  -webkit-transform: rotateZ(-360deg);
-      -ms-transform: rotate(-360deg);
-          transform: rotateZ(-360deg);
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
+  transform: rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
 .home-icons6 {
-  -webkit-transform: rotateZ(-360deg);
-      -ms-transform: rotate(-360deg);
-          transform: rotateZ(-360deg);
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
-  padding: 16px;
+  transform: rotateZ(-360deg);
   padding: 1rem;
   color: #ff033a;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms; }
+  transition-duration: 200ms; }
 
 .home-text {
-  -webkit-transform: translate(-2.2rem, 3.5rem);
-      -ms-transform: translate(-2.2rem, 3.5rem);
-          transform: translate(-2.2rem, 3.5rem);
+  transform: translate(-2.2rem, 3.5rem);
   color: #fff8dc;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
 .home-text2 {
-  -webkit-transform: translate(-2.2rem, 3.5rem);
-      -ms-transform: translate(-2.2rem, 3.5rem);
-          transform: translate(-2.2rem, 3.5rem);
+  transform: translate(-2.2rem, 3.5rem);
   color: #fff8dc;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
 .home-text3 {
-  -webkit-transform: translate(-1.9rem, 3.5rem);
-      -ms-transform: translate(-1.9rem, 3.5rem);
-          transform: translate(-1.9rem, 3.5rem);
+  transform: translate(-1.99rem, 3.5rem);
   color: #fff8dc;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
 .home-text4 {
-  -webkit-transform: translate(-2.5rem, 3.5rem);
-      -ms-transform: translate(-2.5rem, 3.5rem);
-          transform: translate(-2.5rem, 3.5rem);
+  transform: translate(-2.65rem, 3.5rem);
   color: #fff8dc;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
 .home-text5 {
-  -webkit-transform: translate(-2.9rem, 3.5rem);
-      -ms-transform: translate(-2.9rem, 3.5rem);
-          transform: translate(-2.9rem, 3.5rem);
+  transform: translate(-2.9rem, 3.5rem);
   color: #fff8dc;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
 .home-text6 {
-  -webkit-transform: translate(-3.9rem, 3.5rem);
-      -ms-transform: translate(-3.9rem, 3.5rem);
-          transform: translate(-3.9rem, 3.5rem);
+  transform: translate(-3.9rem, 3.5rem);
   color: #fff8dc;
-  -webkit-transition-duration: 200ms;
-       -o-transition-duration: 200ms;
-          transition-duration: 200ms;
+  transition-duration: 200ms;
   opacity: 1; }
 
 .hobby-information {
@@ -307,11 +121,13 @@
   width: 800px;
   background-color: transparent; }
 
-.testclass {
-  -webkit-transition-duration: 1000ms;
-       -o-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+.testhide {
+  transition-duration: 1000ms;
   opacity: 0.25; }
+
+.testshow {
+  transition-duration: 1000ms;
+  opacity: 1; }
 
 html, body {
   background: #141516;
@@ -336,20 +152,13 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
 
 .nav-btn:focus {
   outline: 0; }
 
 .banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(255, 255, 255, 0.1))), url("../imgs/forest.jpg");
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.1)), url("../imgs/forest.jpg");
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.1)), url("../imgs/forest.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.1)), url("../imgs/forest.jpg");
   min-height: 300px;
   background-attachment: fixed;
@@ -375,12 +184,8 @@ html, body {
   border: none;
   color: #fff8dc;
   cursor: pointer;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: linear;
-       -o-transition-timing-function: linear;
-          transition-timing-function: linear; }
+  transition-duration: 250ms;
+  transition-timing-function: linear; }
 
 .default-btn:hover {
   color: #ff033a; }
@@ -407,82 +212,18 @@ html, body {
   color: #fff8dc; }
 
 .navbar-toggler {
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
-  padding: 12px;
   padding: 0.75rem;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
-  font-size: 16px;
   font-size: 1rem;
   line-height: 1;
   background: 0 0;
   border: none;
   border-radius: 0;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
-  margin-top: 1.6px;
   margin-top: 0.1rem;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
-  margin-bottom: 1.6px;
   margin-bottom: 0.1rem; }
 
 .navbar-toggler-icon {
   color: #141516;
   height: 1.0em;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
-  margin-right: 16px;
   margin-right: 1rem; }
+
 /*# sourceMappingURL=style.css.map */
