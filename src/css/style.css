@@ -1,3 +1,4 @@
+/*#ff033a*/
 .underline {
   display: inline-block;
   vertical-align: middle;
@@ -13,7 +14,7 @@
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #fff8dc;
+  background: #ffd747;
   height: 1px;
   transition-property: left, right;
   transition-duration: 250ms;
@@ -50,7 +51,7 @@
 .home-icons2 {
   transform: translate(8.5rem, 6rem) rotateZ(-360deg);
   padding: 1rem;
-  color: #ffc803;
+  color: #fff8dc;
   transition-duration: 200ms; }
 
 .home-icons3 {
@@ -62,7 +63,7 @@
 .home-icons4 {
   transform: translate(-5rem, 12rem) rotateZ(-360deg);
   padding: 1rem;
-  color: #ffc803;
+  color: #fff8dc;
   transition-duration: 200ms; }
 
 .home-icons5 {
@@ -74,7 +75,7 @@
 .home-icons6 {
   transform: translate(-19.2rem, 18rem) rotateZ(-360deg);
   padding: 1rem;
-  color: #ffc803;
+  color: #fff8dc;
   transition-duration: 200ms; }
 
 .home-text {
@@ -85,7 +86,7 @@
 
 .home-text2 {
   transform: translate(4.27rem, 0rem);
-  color: #ffc803;
+  color: #fff8dc;
   transition-duration: 200ms;
   opacity: 1; }
 
@@ -97,7 +98,7 @@
 
 .home-text4 {
   transform: translate(3.96rem, 0rem);
-  color: #ffc803;
+  color: #fff8dc;
   transition-duration: 200ms;
   opacity: 1; }
 
@@ -109,7 +110,7 @@
 
 .home-text6 {
   transform: translate(3.8rem, 0rem);
-  color: #ffc803;
+  color: #fff8dc;
   transition-duration: 200ms;
   opacity: 1; }
 
@@ -123,8 +124,7 @@ html, body {
   height: auto; }
 
 .nav-style {
-  background-color: #03b8ff;
-  color: #ffc803; }
+  background-color: #03b8ff; }
 
 .nav-style a {
   color: #fff8dc;
@@ -136,7 +136,12 @@ html, body {
   border: none;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 400; }
+  font-weight: 400;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
+
+.nav-btn:hover {
+  color: #ffd747; }
 
 .nav-btn:focus {
   outline: 0; }
@@ -177,5 +182,36 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: #fff8dc; }
+
+.mobile-icon1 {
+  font-size: 40px;
+  color: #ff033a; }
+
+.mobile-home-content1 {
+  font-size: 16px;
+  color: #ff033a; }
+
+.mobile-icon2 {
+  font-size: 40px;
+  color: #fff8dc; }
+
+.mobile-home-content2 {
+  font-size: 16px;
+  color: #fff8dc; }
+
+.navbar-toggler {
+  padding: 0.75rem;
+  font-size: 1rem;
+  line-height: 1;
+  background: 0 0;
+  border: none;
+  border-radius: 0;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem; }
+
+.navbar-toggler-icon {
+  color: #141516;
+  height: 1.0em;
+  margin-right: 1rem; }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,6 +17,8 @@
 
     // Mobile variables start
 
+    $mobile-icon-size: 40px;
+
     // Mobile variables end
 
     // Desktop variables start
@@ -62,7 +64,6 @@
 
     .nav-style {
         background-color: $blue;
-        color: $yellow;
     }
 
     .nav-style a {
@@ -77,6 +78,12 @@
         font-family: $nav-font;
         font-size: $nav-font-size;
         font-weight: $nav-font-weight;
+        transition-duration: $hover-time;
+        transition-timing-function: ease-in-out;
+    }
+
+    .nav-btn:hover {
+        color: $yellow;
     }
 
     .nav-btn:focus {
@@ -129,9 +136,46 @@
     }
     
     // Mobile only
+
+    .mobile-icon1 {
+        font-size: $mobile-icon-size;
+        color: $red;
+    }
+
+    .mobile-home-content1 {
+        font-size: $content-font-size;
+        color: $red;
+    }
+
+    .mobile-icon2 {
+        font-size: $mobile-icon-size;
+        color: $white;
+    }
+
+    .mobile-home-content2 {
+        font-size: $content-font-size;
+        color: $white;
+    }
     
     // Desktop only
 
     // Bootstrap modifications
+
+    .navbar-toggler {
+        padding: 0.75rem;
+        font-size: 1rem;
+        line-height: 1;
+        background: 0 0;
+        border: none;
+        border-radius: 0;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .navbar-toggler-icon {
+        color: $black;
+        height: 1.0em;
+        margin-right: 1rem;
+    }
 
 // #####  IDS AND CLASSES END #####
