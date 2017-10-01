@@ -9,6 +9,13 @@ for (i = 0; i < 6; i++) {
     };
 }
 
+for (i = 0; i < 6; i++) {
+    hobbies[i].onmouseover = function() {
+        hobbies[0].classList.add("home-icons");
+        hobbiesDesc[0].classList.add("home-text");
+    };
+}
+
 function nextIcon() {
    hobbies[1].classList.add("home-icons2");
    hobbiesDesc[1].classList.add("home-text2");
