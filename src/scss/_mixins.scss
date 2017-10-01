@@ -32,6 +32,11 @@
 
 @mixin home {
 
+    .fa {
+        position: relative;
+        left: 5.5rem;
+    }
+
     .hobbies {
         font-size: 2rem;
         padding-left: 2rem;
@@ -39,21 +44,18 @@
         cursor: pointer;
     }
 
-    .hobbies-slide-down {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        transition: $slide-time;
+    .hobbies:hover {
+        color: $blue;
     }
 
-    .info-down {
-        opacity: 0;
-        color: $yellow;
+    .hobbies-desc {
         font-family: $content-font;
         font-size: $content-font-size;
+        opacity: 0;
     }
 
     .test {
-        transform: translate(-20.4rem) rotateZ(-360deg);
+        transform: translate(14.7rem, 3rem) rotateZ(-360deg);
         padding: 1rem;
         color: $red;
         transition-duration: 200ms;
@@ -61,38 +63,80 @@
     }
 
     .test2 {
-        transform: translate(-24.4rem, 3rem) rotateZ(-360deg);
+        transform: translate(8.5rem, 6rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $yellow;
         transition-duration: 200ms;
     }
 
     .test3 {
-        transform: translate(-28.1rem, 6rem) rotateZ(-360deg);
+        transform: translate(0.9rem, 9rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $red;
         transition-duration: 200ms;
     }
 
     .test4 {
-        transform: translate(-31.7rem, 9rem) rotateZ(-360deg);
+        transform: translate(-5rem, 12rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $yellow;
         transition-duration: 200ms;
     }
 
     .test5 {
-        transform: translate(-35.8rem, 12rem) rotateZ(-360deg);
+        transform: translate(-11.5rem, 15rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $red;
         transition-duration: 200ms;
     }
 
     .test6 {
-        transform: translate(-38.9rem, 15rem) rotateZ(-360deg);
+        transform: translate(-19.2rem, 18rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $yellow;
         transition-duration: 200ms;
+    }
+
+    .blah {
+        transform: translate(4rem, 0rem);
+        color: $red;
+        transition-duration: 200ms;
+        opacity: 1;
+    }
+
+    .blah2 {
+        transform: translate(4.27rem, 0rem);
+        color: $yellow;
+        transition-duration: 200ms;
+        opacity: 1;
+    }
+
+    .blah3 {
+        transform: translate(4.32rem, 0rem);
+        color: $red;
+        transition-duration: 200ms;
+        opacity: 1;
+    }
+
+    .blah4 {
+        transform: translate(3.96rem, 0rem);
+        color: $yellow;
+        transition-duration: 200ms;
+        opacity: 1;
+    }
+
+    .blah5 {
+        transform: translate(4.44rem, 0rem);
+        color: $red;
+        transition-duration: 200ms;
+        opacity: 1;
+    }
+
+    .blah6 {
+        transform: translate(3.8rem, 0rem);
+        color: $yellow;
+        transition-duration: 200ms;
+        opacity: 1;
     }
 
 }
