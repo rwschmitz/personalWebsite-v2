@@ -57,7 +57,7 @@
     }
 
     .home-icons {
-        transform: translate(14.7rem, 3rem) rotateZ(-360deg);
+        transform: rotateZ(-360deg);
         padding: 1rem;
         color: $red;
         transition-duration: $home-time;
@@ -65,80 +65,93 @@
     }
 
     .home-icons2 {
-        transform: translate(8.5rem, 6rem) rotateZ(-360deg);
+        transform: rotateZ(-360deg);
         padding: 1rem; 
-        color: $white;
+        color: $red;
         transition-duration: $home-time;
     }
 
     .home-icons3 {
-        transform: translate(0.9rem, 9rem) rotateZ(-360deg);
+        transform: translate(-1rem, 0rem) rotateZ(-360deg);
         padding: 1rem; 
         color: $red;
         transition-duration: $home-time;
     }
 
     .home-icons4 {
-        transform: translate(-5rem, 12rem) rotateZ(-360deg);
+        transform: translate(-0.5rem, 0rem) rotateZ(-360deg);
         padding: 1rem; 
-        color: $white;
+        color: $red;
         transition-duration: $home-time;
     }
 
     .home-icons5 {
-        transform: translate(-11.5rem, 15rem) rotateZ(-360deg);
+        transform: rotateZ(-360deg);
         padding: 1rem; 
         color: $red;
         transition-duration: $home-time;
     }
 
     .home-icons6 {
-        transform: translate(-19.2rem, 18rem) rotateZ(-360deg);
+        transform: rotateZ(-360deg);
         padding: 1rem; 
-        color: $white;
+        color: $red;
         transition-duration: $home-time;
     }
 
     .home-text {
-        transform: translate(4rem, 0rem);
-        color: $red;
+        transform: translate(-2.2rem, 3.5rem);
+        color: $white;
         transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text2 {
-        transform: translate(4.27rem, 0rem);
+        transform: translate(-2.2rem, 3.5rem);
         color: $white;
         transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text3 {
-        transform: translate(4.32rem, 0rem);
-        color: $red;
+        transform: translate(-1.9rem, 3.5rem);
+        color: $white;
         transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text4 {
-        transform: translate(3.96rem, 0rem);
+        transform: translate(-2.5rem, 3.5rem);
         color: $white;
         transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text5 {
-        transform: translate(4.44rem, 0rem);
-        color: $red;
+        transform: translate(-2.9rem, 3.5rem);
+        color: $white;
         transition-duration: $home-time;
         opacity: 1;
     }
 
     .home-text6 {
-        transform: translate(3.8rem, 0rem);
+        transform: translate(-3.9rem, 3.5rem);
         color: $white;
         transition-duration: $home-time;
         opacity: 1;
+    }
+
+    .hobby-information {
+        border-top: 1px solid $red;
+        border-bottom: 1px solid $red;
+        height: auto;
+        width: 800px;
+        background-color: transparent;
+    }
+
+    .testclass {
+        transition-duration: 1000ms;
+        opacity: 0.25;
     }
 
 }

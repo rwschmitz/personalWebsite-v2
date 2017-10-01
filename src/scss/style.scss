@@ -82,10 +82,6 @@
         transition-timing-function: ease-in-out;
     }
 
-    .nav-btn:hover {
-        color: $yellow;
-    }
-
     .nav-btn:focus {
         outline: 0;
     }
@@ -146,22 +142,12 @@
     
     // Mobile only
 
-    .mobile-icon1 {
+    .mobile-home-icons {
         font-size: $mobile-icon-size;
         color: $red;
     }
 
-    .mobile-home-content1 {
-        font-size: $content-font-size;
-        color: $red;
-    }
-
-    .mobile-icon2 {
-        font-size: $mobile-icon-size;
-        color: $white;
-    }
-
-    .mobile-home-content2 {
+    .mobile-home-content {
         font-size: $content-font-size;
         color: $white;
     }
