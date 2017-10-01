@@ -1,6 +1,8 @@
 // This script is in beta.  Which sounds absurd, but, the code is in beta until I put the code into loops.
 // As of now though, the code works.  So since I know the code works, I can come back and put the code through loops to shorten the script.
 
+// Potentially check if icon is already set, and if so, revert the icon back to default and remove its message.
+
 
 var hobbies = document.getElementsByClassName("hobbies");
 var hobbiesDesc = document.getElementsByClassName("hobbies-desc");
@@ -65,7 +67,6 @@ hobbies[0].onclick = function() {
     hobbyInformation[3].style.display = 'none';
     hobbyInformation[4].style.display = 'none';
     hobbyInformation[5].style.display = 'none';
-
 };
 
 hobbies[1].onclick = function() {

@@ -13,6 +13,8 @@
     $home-time: 200ms;
     $hover-time: 250ms;
 
+    $icons-size: 25px;
+
     // Site wide variables end
 
     // Mobile variables start
@@ -55,6 +57,7 @@
         background: $black;
         margin: 0;
         padding: 0;
+        height: 2000px
     }
 
     .nav-logo {
@@ -99,15 +102,21 @@
         height: auto;
     }
 
-    .content {
-        font-family: $content-font;
-        font-size: $content-font-size;
-        color: $white;
-    }
-
     .header {
         font-family: $header-font;
         font-size: $header-font-size;
+        color: $red;
+    }
+
+    .subheader {
+        font-family: $subheader-font;
+        font-size: $subheader-font-size;
+        color: $red;
+    }
+
+    .content {
+        font-family: $content-font;
+        font-size: $content-font-size;
         color: $white;
     }
 
@@ -138,6 +147,11 @@
         font-family: $subintro-font;
         font-size: $subintro-font-size;
         color: $white;
+    }
+
+    .icons {
+        color: $red;
+        font-size: $icons-size;
     }
     
     // Mobile only

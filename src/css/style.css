@@ -138,7 +138,8 @@
 html, body {
   background: #141516;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  height: 2000px; }
 
 .nav-logo {
   max-width: 50%;
@@ -175,14 +176,19 @@ html, body {
 .section {
   height: auto; }
 
-.content {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  color: #fff8dc; }
-
 .header {
   font-family: "Roboto Slab", serif;
   font-size: 30px;
+  color: #ff033a; }
+
+.subheader {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  color: #ff033a; }
+
+.content {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   color: #fff8dc; }
 
 .default-btn {
@@ -208,6 +214,10 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: #fff8dc; }
+
+.icons {
+  color: #ff033a;
+  font-size: 25px; }
 
 .mobile-home-icons {
   font-size: 40px;

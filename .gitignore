@@ -3,8 +3,10 @@ node_modules
 src/.sass-cache
 src/calcs
 src/docs
+src/fontmfizz
 src/php
 src/scss/.sass-cache
 src/css/style.css.map
+dist/fontmfizz
 dist/imgs
 dist/php
