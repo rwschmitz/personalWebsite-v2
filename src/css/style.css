@@ -114,20 +114,26 @@
   transition-duration: 200ms;
   opacity: 1; }
 
-.hobby-information {
-  border-top: 1px solid #ff033a;
-  border-bottom: 1px solid #ff033a;
+.hobby-box {
+  border-top: 1px solid #03b8ff;
+  border-bottom: 1px solid #03b8ff;
   height: auto;
   width: 800px;
   background-color: transparent; }
 
-.testhide {
-  transition-duration: 1000ms;
-  opacity: 0.25; }
+.hobby-information {
+  display: none;
+  transition-duration: 500ms; }
 
-.testshow {
-  transition-duration: 1000ms;
-  opacity: 1; }
+.hobbyhide {
+  color: #ff033a;
+  opacity: 0.25;
+  transition-duration: 300ms; }
+
+.hobbyshow {
+  color: #03b8ff;
+  opacity: 1;
+  transition-duration: 300ms; }
 
 html, body {
   background: #141516;

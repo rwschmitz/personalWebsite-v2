@@ -141,21 +141,28 @@
         opacity: 1;
     }
 
-    .hobby-information {
-        border-top: 1px solid $red;
-        border-bottom: 1px solid $red;
+    .hobby-box {
+        border-top: 1px solid $blue;
+        border-bottom: 1px solid $blue;
         height: auto;
         width: 800px;
         background-color: transparent;
     }
 
-    .testhide {
-        transition-duration: 1000ms;
-        opacity: 0.25;
+    .hobby-information {
+        display: none;
+        transition-duration: 500ms;
     }
 
-    .testshow {
-        transition-duration: 1000ms;
+    .hobbyhide {
+        color: $red;
+        opacity: 0.25;
+        transition-duration: 300ms;
+    }
+
+    .hobbyshow {
+        color: $blue;
         opacity: 1;
+        transition-duration: 300ms;
     }
 }
