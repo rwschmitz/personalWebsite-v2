@@ -1,3 +1,4 @@
+/* jshint ignore: start */
 var hobbies = document.getElementsByClassName("hobbies");
 var hobbiesDesc = document.getElementsByClassName("hobbies-desc");
 
@@ -40,3 +41,5 @@ hobbies[1].addEventListener("transitionend", nextIcon2, false);
 hobbies[2].addEventListener("transitionend", nextIcon3, false);
 hobbies[3].addEventListener("transitionend", nextIcon4, false);
 hobbies[4].addEventListener("transitionend", nextIcon5, false);
+
+/* jshint ignore: end */
