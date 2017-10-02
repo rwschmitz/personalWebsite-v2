@@ -156,6 +156,7 @@ html, body {
   background-color: transparent;
   color: #fff8dc;
   border: none;
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -241,5 +242,10 @@ html, body {
   color: #141516;
   height: 1.0em;
   margin-right: 1rem; }
+
+.testdiv {
+  height: 200px;
+  width: 300px;
+  border: 1px solid #ff033a; }
 
 /*# sourceMappingURL=style.css.map */

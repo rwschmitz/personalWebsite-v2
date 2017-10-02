@@ -78,6 +78,7 @@
         background-color: transparent;
         color: $white;
         border: none;
+        cursor: pointer;
         font-family: $nav-font;
         font-size: $nav-font-size;
         font-weight: $nav-font-weight;
@@ -188,3 +189,9 @@
     }
 
 // #####  IDS AND CLASSES END #####
+
+.testdiv {
+    height: 200px;
+    width: 300px;
+    border: 1px solid $red;
+}
