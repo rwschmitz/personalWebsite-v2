@@ -160,11 +160,28 @@
         font-size: $icons-size;
     }
 
+    .project-btn {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .project-btn:focus {
+        outline: 0;
+    }
+
      .project-bg {
         height: auto;
         background-color: transparent;
         padding: 0.75rem;
         opacity: 0.5;
+        transition-duration: $hover-time;
+        transition-timing-function: ease-in-out;
+     }
+
+     .project-bg:hover {
+        opacity: 1;
      }
 
      .project-name {
@@ -278,7 +295,13 @@
     }
 
     .img-fluid {
-        opacity: 0.45;
+        opacity: 0.4;
+        transition-duration: $hover-time;
+        transition-timing-function: ease-in-out;
+    }
+
+    .img-fluid:hover {
+        opacity: 1;
     }
 
     .form-control {

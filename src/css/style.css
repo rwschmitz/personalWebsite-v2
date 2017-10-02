@@ -224,11 +224,25 @@ hr {
   color: #ff033a;
   font-size: 2.5rem; }
 
+.project-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer; }
+
+.project-btn:focus {
+  outline: 0; }
+
 .project-bg {
   height: auto;
   background-color: transparent;
   padding: 0.75rem;
-  opacity: 0.5; }
+  opacity: 0.5;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
+
+.project-bg:hover {
+  opacity: 1; }
 
 .project-name {
   font-family: "Roboto", sans-serif;
@@ -318,7 +332,12 @@ hr {
   margin-right: 1rem; }
 
 .img-fluid {
-  opacity: 0.45; }
+  opacity: 0.4;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
+
+.img-fluid:hover {
+  opacity: 1; }
 
 .form-control {
   background-color: #fff8dc;
