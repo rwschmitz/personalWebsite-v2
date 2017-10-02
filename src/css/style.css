@@ -138,8 +138,12 @@
 html, body {
   background: #141516;
   margin: 0;
-  padding: 0;
-  height: 2000px; }
+  padding: 0; }
+
+hr {
+  width: 10rem;
+  background: transparent;
+  border-bottom: 1px solid #fff8dc; }
 
 .nav-logo {
   max-width: 50%;
@@ -220,6 +224,20 @@ html, body {
   color: #ff033a;
   font-size: 2.5rem; }
 
+.project-bg {
+  height: auto;
+  background-color: transparent;
+  padding: 0.75rem;
+  opacity: 0.5; }
+
+.project-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #fff8dc;
+  border-top: 1px solid #03b8ff;
+  border-bottom: 1px solid #03b8ff;
+  padding: 0.25rem; }
+
 .contact-icons {
   transition-duration: 250ms;
   transition-timing-function: ease-in-out; }
@@ -298,6 +316,9 @@ html, body {
   color: #141516;
   height: 1.0em;
   margin-right: 1rem; }
+
+.img-fluid {
+  opacity: 0.45; }
 
 .form-control {
   background-color: #fff8dc;
