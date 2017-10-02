@@ -154,6 +154,74 @@
         color: $red;
         font-size: $icons-size;
     }
+
+    .contact-icons {
+        @extend .icons;
+        transition-duration: $hover-time;
+        transition-timing-function: ease-in-out;
+    }
+
+    .contact-icons:hover {
+        color: $blue;
+    }
+
+    .default-border {
+        display: block;
+        border: 1px solid $blue;
+    }
+          
+    .valid-border {
+        display: block;
+        border: 1px solid $blue; 
+    }
+    
+    .invalid-info, .invalid-name, .invalid-email, .invalid-number, .invalid-message {
+        display: none;
+        margin-top: .25rem;
+        font-size: .7rem;
+        color: $red;
+    }
+
+    .invalid-border {
+        display: block;
+        border: 1px solid $red; 
+    }
+
+    .contact-submit-button {
+        border: none;
+        background-color: $blue;
+        color: $white;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        transition-duration: $hover-time;
+        transition-timing-function: ease-in-out;
+    }
+
+    .contact-submit-button:hover {
+        background-color: $white;
+        color: $blue;
+    }
+
+    .modal-close-button {
+        border: none;
+        background-color: $white;
+        color: $blue;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        transition-duration: $hover-time;
+        transition-timing-function: ease-in-out;
+    }
+
+    .modal-close-button:hover {
+        background-color: $blue;
+        color: $white;
+    }
+    
+    .copyright {
+        font-family: $copyright-font;
+        font-size: $copyright-font-size;
+        color: $white;
+    }
     
     // Mobile only
 
@@ -186,6 +254,22 @@
         color: $black;
         height: 1.0em;
         margin-right: 1rem;
+    }
+
+    .form-control {
+        background-color: $white;
+        color: $black;
+    }
+
+    .modal-content {
+        background-color: $blue;
+    }
+
+    .close {
+        color: $white;
+        text-shadow: none;
+        opacity: 1;
+        cursor: pointer;
     }
 
 // #####  IDS AND CLASSES END #####
