@@ -2,39 +2,39 @@
 // As of now though, the code works.  So since I know the code works, I can come back and put the code through loops to shorten the script.
 
 // Potentially check if icon is already set, and if so, revert the icon back to default and remove its message.
+// Look at projects.js for declaring variables in a loop
 
 
 var hobbies = document.getElementsByClassName("hobbies");
 var hobbiesDesc = document.getElementsByClassName("hobbies-desc");
 var hobbyInformation = document.getElementsByClassName("hobby-information");
-var active = false;
 
-var timingFunction1 = function test (){
+var timingFunction1 = function (){
     hobbies[0].classList.add("home-icons");
     hobbiesDesc[0].classList.add("home-text");
 };
 
-var timingFunction2 = function test (){
+var timingFunction2 = function (){
     hobbies[1].classList.add("home-icons2");
     hobbiesDesc[1].classList.add("home-text2");
 };
 
-var timingFunction3 = function test (){
+var timingFunction3 = function (){
     hobbies[2].classList.add("home-icons3");
     hobbiesDesc[2].classList.add("home-text3");
 };
 
-var timingFunction4 = function test (){
+var timingFunction4 = function (){
     hobbies[3].classList.add("home-icons4");
     hobbiesDesc[3].classList.add("home-text4");
 };
 
-var timingFunction5 = function test (){
+var timingFunction5 = function (){
     hobbies[4].classList.add("home-icons5");
     hobbiesDesc[4].classList.add("home-text5");
 };
 
-var timingFunction6 = function test (){
+var timingFunction6 = function (){
     hobbies[5].classList.add("home-icons6");
     hobbiesDesc[5].classList.add("home-text6");
 };
