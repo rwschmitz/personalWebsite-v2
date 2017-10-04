@@ -63,7 +63,11 @@
         width: 10rem;
         background: transparent;
         border-bottom: 1px solid $white;
-     }
+    }
+
+    ol {
+        padding-left: 1rem;
+    }
 
     .nav-logo {
         max-width: 50%;

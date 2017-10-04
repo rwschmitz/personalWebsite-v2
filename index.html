@@ -431,20 +431,6 @@
             </div> <!-- End col -->
         </div> <!-- End row -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Project 1 modal start -->
         <div class="modal fade" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -459,13 +445,23 @@
                     </div>
 
                     <div class="modal-body content-inverse">
-                            <div class="text-justify">
+                            <div class="text-left">
                                 <b>Languages:</b> Ladder Logic<br><br>
                                 <b>Programs/Tech:</b> RSLogix500, RSLogix 5000, Studio5000, PanelView<br><br>
                                 <b>Description:</b> I worked for 3.5 years writing programmable logic controller (PLC) code.  PLC programming involves a langauge called, "ladder logic".  It's a way to visualize the electrical contacts, relays, coils, etc. and write
                                 software to manipulate said components.  Ladder logic is used in factory automation and is similar to any other programming language from an algorithm standpoint.<br><br>
-                                <b>Lessons Learned:</b> Algorithms, data structures, TCP/IP protocol, project forecasting, proposals and functional working documents, client facing work.<br><br>  
-                                <b>Code Link:</b><a class="pl-2" href="https://www.rudolphschmitz.com/plc/index.html" target="_blank">Continue to code</a>
+                                <b>Lessons Learned:</b>
+                                <ol>
+                                    <li>Algorithms</li>
+                                    <li>Data structures</li>
+                                    <li>TCP/IP protocol</li>
+                                    <li>Debugging and troubleshooting code in both development and production</li>
+                                    <li>Working on a development team</li>
+                                    <li>Leading a development team</li>
+                                    <li>Forecasting, proposals and functional working documents
+                                    <li>Client facing work</li>
+                                </ol>  
+                                <b>Source code link:</b><a class="pl-2" href="https://www.rudolphschmitz.com/plc/index.html" target="_blank">Continue to code</a>
                             </div>
                     </div>
 
@@ -490,7 +486,7 @@
                         </div>
 
                     <div class="modal-body content-inverse">
-                        <div class="text-justify">
+                        <div class="text-left">
                             <b>Languages:</b> Visual Basic for Applications (VBA)<br><br>
                             <b>Programs/Tech:</b> Microsoft Excel<br><br>
                             <b>Description:</b> This script scrapes the <a href="https://www.wowprogress.com/" target="_blank">wowprogress.com</a> website for players looking for a guild.  An equivalent anaolgy for players looking for a guild, is job seekers looking for a company to work for.<br><br>  Players = job seekers<br>Guild = company<br><br>
@@ -505,8 +501,13 @@
                             </ol>
 
                             Download and run the tool to see for yourself!<br><br>
-                            <b>Lessons Learned:</b> Connecting local files to remote servers, VBA language.<br><br>
-                            <b>Code Link:</b><a class="pl-2" href="https://github.com/rwschmitz/importPlayers" target="_blank">Continue to code</a>
+                            <b>Lessons Learned:</b> 
+                            
+                            <ol>
+                                <li>Connecting local files to remote servers</li>
+                                <li>VBA language</li>
+                            </ol>
+                            <b>Source code link:</b><a class="pl-2" href="https://github.com/rwschmitz/importPlayers" target="_blank">Continue to code</a>
                         </div>
                     </div>
 
@@ -531,12 +532,23 @@
                     </div>
 
                     <div class="modal-body content-inverse">
-                        <div class="text-justify">
+                        <div class="text-left">
                             <b>Langauges:</b> HTML5, CSS3, JavaScript<br><br>
                             <b>Frameworks/Libraries:</b> jQuery, node.js, Bootstrap<br><br>
                             <b>Programs/Tech:</b> Grunt, Git, Apache, Visual Studio Code, Google Developer Tools</b><br><br>
                             <b>Description:</b> This was the first version of my personal website.  I wrote a ton of custom code that could have been solved with boilerplates, libraries, plug-ins, etc. but I thought it was crucial to write everything from scratch so I could understand the fundamentals.<br><br>
-                            <b>Lessons Learned:</b> Some of the biggest
+                            <b>Lessons Learned:</b> 
+                            <ol>
+                                <li>Using Google Developer Tools to debug HTML/CSS.</li>  
+                                <li>Writing JavaScript with jQuery.</li> 
+                                <li>Using Grunt as a task runner to both minify code to optimize page loading speeds and debug JavaScript using a linter (jshint).</li>  
+                                <li>Using Bootstrap as a framework for responsive design.</li>  
+                                <li>Using a GUI for Git (SourceTree).  Which, in following projects, prompted me to learn Git using the command line interface (CLI).</li>   
+                                <li>Setting up a local development server using Apache to preview code before pushing to the web (I now use Visual Studio Code's live preview function).</li>   
+                                <li>One of the biggest lessons learned, though, was I noticed I was creating entirely too many CSS classes.  In projects going forward (the lawfirm website and my personal website version 2.0) I incorporate Sass and use less classes.  This makes debugging/refactoring code much eaiser and decreases loading time.</li> 
+                            </ol>
+                            <b>Source code link:</b><a class="pl-2" href="https://github.com/rwschmitz/personalWebsite" target="_blank">Continue to code</a><br>
+                            <b>Live demo link:</b><a class="pl-2" href="https://rudolphschmitz.com/personal-website-v1/" target="_blank">Continue to live demo</a>  
                         </div>
                     </div>
 
@@ -561,8 +573,26 @@
                     </div>
 
                     <div class="modal-body content-inverse">
-                        <div class="text-justify">
-                            Project 4
+                        <div class="text-left">
+                            <b>Programs/Tech:</b> Git, PuTTY<br><br>
+                            <b>Description:</b>  The purpose of this project was to make my workflow more efficient and streamlined.  In short, the process is as follows:
+                            <ol>
+                                <li>Create public/private SSH keys.</li>
+                                <li>Link SSH keys between local development machine and web server.</li>
+                                <li>Link SSH key to Github.</li>
+                                <li>Create local and remote repositories.</li>
+                                <li>Create post-recieve hook to checkout a branch.</li>
+                                <li>Use Git remotes to push code to both Github and web server simultaneously by using:  git add, git commit and git push.</li>
+                            </ol>
+                            <b>Lessons Learned:</b>
+                            <ol>
+                                <li>How to create SSH keys.</li>
+                                <li>How to link SSH keys between machines.</li>
+                                <li>How to use Git with a command line interface (CLI).</li>
+                                <li>How to deploy code with Gi.</li>
+                                <li>How to improve and streamline my workflow.</li>
+                            </ol>
+                            <b>Source code link:</b><a class="pl-2" href="https://www.rudolphschmitz.com/SSH-git/index.html" target="_blank">Continue to code</a>
                         </div>
                     </div>
 
@@ -587,8 +617,24 @@
                     </div>
 
                     <div class="modal-body content-inverse">
-                        <div class="text-justify">
-                            Project 5
+                        <div class="text-left">
+                            <b>Langauges:</b> HTML5, CSS3, Sass, JavaScript, PHP<br><br>
+                            <b>Frameworks/Libraries:</b> jQuery, node.js, Bootstrap<br><br>
+                            <b>Programs/Tech:</b> AJAX, Grunt, Git, Visual Studio Code, Google Developer Tools</b><br><br>
+                            <b>Description:</b> This project was for a client who runs his own law practice. This project used the SSH/Git workflow to improve efficiency.  This project also used the newer 4.0 version of Bootstrap for responsive design, utilizing flexbox. Additionally, PHP and AJAX was used to handle the contact form. Sass was used to write cleaner, shorter and more efficient CSS. Finally, I focused more on writing vanilla JavaScript on this project instead of only jQuery.<br><br>
+                            <b>Lessons learned:</b>
+                            <ol>
+                                <li>Using Asynchronous JavaScript And XML (AJAX).  Used to prevent the page from reloading on form submission and searching.</li>
+                                <li>How to watch files using Sass so that any changes in my .scss file propagate to my .css file.</li>
+                                <li>How to write more vanilla JavaScript.</li>
+                                <li>Using PHP to handle form submissions.</li>
+                                <li>Using Bootstrap 4.0 and flexbox to style the page.  A step forwarded from Bootstrap 3.3.7.</li>
+                                <li>Putting SSH/Git to use to streamline my workflow.</li>
+                            </ol>
+                            <b>Source code link:</b><a class="pl-2" href="https://github.com/rwschmitz/kuhn-lawfirm" target="_blank">Continue to code</a><br>
+                            <b>Live demo link:</b><a class="pl-2" href="https://rudolphschmitz.com/lawfirm/" target="_blank">Continue to live demo</a><br><br>
+                            A link to the live website is below. <b>However, the client reserved the right to make changes to the website after project handoff.</b><br><br>  
+                            <b>Live site link:</b> <a class="pl-2" href="https://www.kuhn-lawfirm.com/" target="_blank">Continue to live site</a>
                         </div>
                     </div>
 
@@ -613,8 +659,19 @@
                     </div>
 
                     <div class="modal-body content-inverse">
-                        <div class="text-justify">
-                            Project 6
+                        <div class="text-left">
+                            <b>Langauges:</b> HTML5, CSS3, Sass, JavaScript, PHP<br><br>
+                            <b>Frameworks/Libraries:</b> jQuery, node.js, Bootstrap<br><br>
+                            <b>Programs/Tech:</b> AJAX, Grunt, Git, Visual Studio Code, Google Developer Tools</b><br><br>
+                            <b>Description:</b> This project was a revamp of my personal website.  This time around, I wrote more vanilla JavaScript than my first version. Additionally, I used Sass, even much more so than the previous project (lawfirm).  I incorporated mixins and partials ("_filename.scss").  Mixins and partials allow me to create more modular code so I can re-use said code in future projects.  I'm trying to adhere to the DRY (don't repeat yourself) principle.  Modular CSS helps me with this. <br><br>
+                            <b>Lessons learned:</b>
+                            <ol>
+                                <li>How to use mixins and partials with Sass to make my code more organized, clean and modular.</li>
+                                <li>Writing more vanilla JavaScript. Working more with map(), forEach(), setTimeout() methods.</li>
+                                <li>Learning and reading more about ES6.</li>
+                            </ol>
+                            <b>Source code link:</b><a class="pl-2" href="https://github.com/rwschmitz/personalWebsite-v2" target="_blank">Continue to code</a><br>
+                            <b>Live site link:</b><a class="pl-2" href="https://www.rudolphschmitz.com/" target="_blank">You're already here!</a><br><br>
                         </div>
                     </div>
 
@@ -624,40 +681,6 @@
                 </div>
             </div>
         </div> <!-- End modal -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
     </div> <!-- End container -->
     <!-- Projects end -->
 
