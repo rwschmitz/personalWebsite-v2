@@ -39,3 +39,11 @@ $(function() {
        }, 500);
     });
  });
+
+ $(function() {
+    $('#goContact2').click(function() {
+       $('html, body').animate({
+          scrollTop: $('#contact').offset().top
+       }, 500);
+    });
+ });
